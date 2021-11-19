@@ -1,1 +1,1 @@
-# 🛠tec blog🛠
+# 🛠 Tec Blog 🛠
