@@ -139,5 +139,18 @@
             </ul>
         </li>
 
+        <li>
+            <span class="nav__sub-title">etc</span>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "la" %}
+                        <li>
+                            <a href="/categories/memo" class="">memo({{category[1].size}})</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
     </ul>
 </nav>
