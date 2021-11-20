@@ -1,13 +1,13 @@
-I"�
+I"�
 <div class="list__item">
-    <article class="archive-item">
-        <div>
-            <span>
-              <a href="/pt/pttest1/">probability theory test1</a>
-            </span>
-            <small> 
-              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.20
-              <!--Archive page 용-: (post -> page)-->
+  <article class="archive-item">
+      <div>
+          <span>
+            <a href="/pt/pttest1/">probability theory test1</a>
+          </span>
+          <small> 
+            <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.20
+            <!--Archive page 용-: (post -> page)-->
 <!--page__taxonomy.html에서 가져 옴-->
         
         <span class="page__taxonomy">
@@ -22,9 +22,9 @@
                 
             </span>
         </span>
-            </small>
-        </div>
-      </article>
+          </small>
+      </div>
+    </article>
 </div>
 
 :ET
