@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://ijaehun.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ijaehun.github.io/" rel="alternate" type="text/html" /><updated>2021-11-20T22:09:48+09:00</updated><id>https://ijaehun.github.io/feed.xml</id><title type="html">ijaehun’s blog</title><subtitle>통계, 개발공부 등등</subtitle><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><entry><title type="html">probability theory test1</title><link href="https://ijaehun.github.io/pt/pttest1/" rel="alternate" type="text/html" title="probability theory test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/pt/pttest1</id><content type="html" xml:base="https://ijaehun.github.io/pt/pttest1/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://ijaehun.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ijaehun.github.io/" rel="alternate" type="text/html" /><updated>2021-11-20T22:37:29+09:00</updated><id>https://ijaehun.github.io/feed.xml</id><title type="html">ijaehun’s blog</title><subtitle>통계, 개발공부 등등</subtitle><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><entry><title type="html">analysis test1</title><link href="https://ijaehun.github.io/analysis/analysistest1/" rel="alternate" type="text/html" title="analysis test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/analysis/analysistest1</id><content type="html" xml:base="https://ijaehun.github.io/analysis/analysistest1/">&lt;p&gt;샘플&lt;/p&gt;
+&lt;h1 id=&quot;1&quot;&gt;1&lt;/h1&gt;
+&lt;p&gt;샘플&lt;/p&gt;
+&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
+
+&lt;p&gt;123&lt;/p&gt;
+
+&lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
+
+&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="analysis" /><category term="analysis" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">샘플 1 샘플 test1</summary></entry><entry><title type="html">Deep Learning test1</title><link href="https://ijaehun.github.io/dl/DLtest/" rel="alternate" type="text/html" title="Deep Learning test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/dl/DLtest</id><content type="html" xml:base="https://ijaehun.github.io/dl/DLtest/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
 
 &lt;p&gt;1
 2
@@ -7,7 +16,7 @@ test&lt;/p&gt;
 
 &lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
 
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="pt" /><category term="probability theory" /><category term="test1" /><summary type="html">test1</summary></entry><entry><title type="html">DLtest2</title><link href="https://ijaehun.github.io/dl/DLtest2/" rel="alternate" type="text/html" title="DLtest2" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/dl/DLtest2</id><content type="html" xml:base="https://ijaehun.github.io/dl/DLtest2/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
+&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="DL" /><category term="Deep Learning" /><category term="test1" /><summary type="html">test1</summary></entry><entry><title type="html">DLtest2</title><link href="https://ijaehun.github.io/dl/DLtest2/" rel="alternate" type="text/html" title="DLtest2" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/dl/DLtest2</id><content type="html" xml:base="https://ijaehun.github.io/dl/DLtest2/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
 
 &lt;p&gt;1
 2
@@ -43,16 +52,16 @@ test&lt;/p&gt;
 
 &lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
 
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="R" /><category term="R" /><category term="test1" /><summary type="html">test1</summary></entry><entry><title type="html">analysis test1</title><link href="https://ijaehun.github.io/analysis/analysistest1/" rel="alternate" type="text/html" title="analysis test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/analysis/analysistest1</id><content type="html" xml:base="https://ijaehun.github.io/analysis/analysistest1/">&lt;p&gt;샘플&lt;/p&gt;
-&lt;h1 id=&quot;1&quot;&gt;1&lt;/h1&gt;
-&lt;p&gt;샘플&lt;/p&gt;
-&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
+&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="R" /><category term="R" /><category term="test1" /><summary type="html">test1</summary></entry><entry><title type="html">probability theory test1</title><link href="https://ijaehun.github.io/pt/pttest1/" rel="alternate" type="text/html" title="probability theory test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/pt/pttest1</id><content type="html" xml:base="https://ijaehun.github.io/pt/pttest1/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
 
-&lt;p&gt;123&lt;/p&gt;
+&lt;p&gt;1
+2
+3
+test&lt;/p&gt;
 
 &lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
 
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="analysis" /><category term="analysis" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">샘플 1 샘플 test1</summary></entry><entry><title type="html">calculus test1</title><link href="https://ijaehun.github.io/calculus/calculustest1/" rel="alternate" type="text/html" title="calculus test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/calculus/calculustest1</id><content type="html" xml:base="https://ijaehun.github.io/calculus/calculustest1/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
+&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="pt" /><category term="probability theory" /><category term="test1" /><summary type="html">test1</summary></entry><entry><title type="html">calculus test1</title><link href="https://ijaehun.github.io/calculus/calculustest1/" rel="alternate" type="text/html" title="calculus test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/calculus/calculustest1</id><content type="html" xml:base="https://ijaehun.github.io/calculus/calculustest1/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
 
 &lt;p&gt;1
 2
@@ -79,13 +88,4 @@ test&lt;/p&gt;
 
 &lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
 
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="kaggle" /><category term="kaggle" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">test1</summary></entry><entry><title type="html">linear algebra</title><link href="https://ijaehun.github.io/la/latest1/" rel="alternate" type="text/html" title="linear algebra" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/la/latest1</id><content type="html" xml:base="https://ijaehun.github.io/la/latest1/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
-
-&lt;p&gt;1
-2
-3
-test&lt;/p&gt;
-
-&lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
-
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="la" /><category term="linear algebra" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">test1</summary></entry></feed>
+&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="kaggle" /><category term="kaggle" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">test1</summary></entry></feed>
