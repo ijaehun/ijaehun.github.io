@@ -1,7 +1,7 @@
 ---
 title: "Kaggle"
 layout: archive
-permalink: categories/Kaggle
+permalink: categories/kaggle
 author_profile: true
 sidebar_main: true
 ---
