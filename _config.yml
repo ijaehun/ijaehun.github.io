@@ -43,7 +43,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : Icy-Dark
+    theme                : icy-dark
     issue_term           : pathname
   staticman:
     branch               : # "master"
