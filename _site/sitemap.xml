@@ -4,25 +4,9 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>https://ijaehun.github.io/jekyll/post-exclude-search/</loc>
+        <loc>https://ijaehun.github.io/pt/pttest1/</loc>
         
-        <lastmod>2017-11-28T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://ijaehun.github.io/layout/uncategorized/layout-header-video/</loc>
-        
-        <lastmod>2017-01-23T00:00:00+09:00</lastmod>
+        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
 
         
@@ -36,25 +20,9 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/jekyll/gemified-theme-beta/</loc>
+        <loc>https://ijaehun.github.io/ms/mstest/</loc>
         
-        <lastmod>2016-10-06T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://ijaehun.github.io/jekyll/gemified-theme-alpha/</loc>
-        
-        <lastmod>2016-09-21T00:00:00+09:00</lastmod>
+        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
 
         
@@ -68,25 +36,9 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/jekyll/welcome-to-jekyll/</loc>
+        <loc>https://ijaehun.github.io/la/latest1/</loc>
         
-        <lastmod>2016-02-24T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://ijaehun.github.io/markup-syntax-highlighting/</loc>
-        
-        <lastmod>2013-08-16T00:00:00+09:00</lastmod>
+        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
 
         
@@ -100,25 +52,9 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/markup-more-images/</loc>
+        <loc>https://ijaehun.github.io/kaggle/kaggletest1/</loc>
         
-        <lastmod>2013-05-22T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://ijaehun.github.io/markup/markup-html-tags-and-formatting/</loc>
-        
-        <lastmod>2013-01-11T00:00:00+09:00</lastmod>
+        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
 
         
@@ -132,25 +68,9 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/markup/markup-image-alignment/</loc>
+        <loc>https://ijaehun.github.io/dm/dmtest2/</loc>
         
-        <lastmod>2013-01-10T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://ijaehun.github.io/markup/markup-text-alignment/</loc>
-        
-        <lastmod>2013-01-09T00:00:00+09:00</lastmod>
+        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
 
         
@@ -164,25 +84,9 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/markup/markup-title-with-special-characters/</loc>
+        <loc>https://ijaehun.github.io/calculus/calculustest1/</loc>
         
-        <lastmod>2013-01-05T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://ijaehun.github.io/markdown/markup-title-with-markup/</loc>
-        
-        <lastmod>2013-01-05T00:00:00+09:00</lastmod>
+        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
 
         
@@ -196,25 +100,9 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/markup-text-readability/</loc>
+        <loc>https://ijaehun.github.io/analysis/analysistest1/</loc>
         
-        <lastmod>2012-05-22T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://ijaehun.github.io/markup-text-readability-wide-page/</loc>
-        
-        <lastmod>2012-05-22T00:00:00+09:00</lastmod>
+        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
 
         
@@ -228,25 +116,9 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/layout-sidebar-nav-list/</loc>
+        <loc>https://ijaehun.github.io/r/Rtest1/</loc>
         
-        <lastmod>2012-03-15T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://ijaehun.github.io/layout-sidebar-custom/</loc>
-        
-        <lastmod>2012-03-15T00:00:00+09:00</lastmod>
+        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
 
         
@@ -260,25 +132,9 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/layout/uncategorized/layout-more-tag/</loc>
+        <loc>https://ijaehun.github.io/python/pythontest1/</loc>
         
-        <lastmod>2012-03-15T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://ijaehun.github.io/layout/uncategorized/layout-header-overlay-image/</loc>
-        
-        <lastmod>2012-03-15T00:00:00+09:00</lastmod>
+        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
 
         
@@ -292,25 +148,9 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/layout/uncategorized/layout-header-overlay-image-tagline/</loc>
+        <loc>https://ijaehun.github.io/ml/MLtest/</loc>
         
-        <lastmod>2012-03-15T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://ijaehun.github.io/layout/uncategorized/layout-header-overlay-color/</loc>
-        
-        <lastmod>2012-03-15T00:00:00+09:00</lastmod>
+        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
 
         
@@ -324,25 +164,9 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/layout/uncategorized/layout-header-image-vertical/</loc>
+        <loc>https://ijaehun.github.io/dl/DLtest2/</loc>
         
-        <lastmod>2012-03-15T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://ijaehun.github.io/layout-header-image-text-readability/</loc>
-        
-        <lastmod>2012-03-15T00:00:00+09:00</lastmod>
+        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
 
         
@@ -356,25 +180,9 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/layout/uncategorized/layout-header-image-horizontal/</loc>
+        <loc>https://ijaehun.github.io/dl/DLtest/</loc>
         
-        <lastmod>2012-03-15T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://ijaehun.github.io/layout/uncategorized/layout-header-image-external/</loc>
-        
-        <lastmod>2012-03-15T00:00:00+09:00</lastmod>
+        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
 
         
