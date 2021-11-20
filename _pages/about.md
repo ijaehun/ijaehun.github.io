@@ -4,6 +4,7 @@ title: "about me"
 toc : true
 toc_sticky : true
 toc_label : "about me"
+sidebar_main: true
 ---
 
 ## 공부하는중입니다.
