@@ -1,0 +1,38 @@
+I"J
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/dm/dmtest2/">discrete math test1</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.20
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#dm" class="page__taxonomy-item-category" rel="tag">dm</a>
+                    
+                    
+                    <a href="/tags/#discrete-math" class="page__taxonomy-item-tag" rel="tag">discrete math</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#test1" class="page__taxonomy-item-tag" rel="tag">test1</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#test2" class="page__taxonomy-item-tag" rel="tag">test2</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#test3" class="page__taxonomy-item-tag" rel="tag">test3</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+
+:ET
