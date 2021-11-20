@@ -23,7 +23,7 @@ name                     : "ijaehun"
 description              : "통계, 개발공부 등등"
 url                      : "https://ijaehun.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "ijaehun/comments"
+repository               : "ijaehun/ijaehun.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : #
 masthead_title           : "통계하는 개발자"
