@@ -30,7 +30,7 @@ masthead_title           : "통계하는 개발자"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 
-#댓글 관련 부분
+#댓글 관련 부분≈
 comments:
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
