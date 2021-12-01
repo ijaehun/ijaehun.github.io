@@ -4,6 +4,38 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://ijaehun.github.io/memo/memotest1/</loc>
+        
+        <lastmod>2021-11-21T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://ijaehun.github.io/visualization/visualizationtest1/</loc>
+        
+        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>https://ijaehun.github.io/pt/pttest1/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
@@ -21,22 +53,6 @@
     
     <url>
         <loc>https://ijaehun.github.io/ms/mstest/</loc>
-        
-        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://ijaehun.github.io/memo/memotest1/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
@@ -132,7 +148,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/r/Rtest1/</loc>
+        <loc>https://ijaehun.github.io/randpython/pythontest1/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
@@ -148,7 +164,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/python/pythontest1/</loc>
+        <loc>https://ijaehun.github.io/randpython/Rtest1/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
