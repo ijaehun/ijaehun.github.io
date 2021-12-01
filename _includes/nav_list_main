@@ -42,9 +42,9 @@
 
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "R" %}
+                    {% if category[0] == "Randpython" %}
                         <li>
-                            <a href="/categories/R" class="">R({{category[1].size}})</a>
+                            <a href="/categories/Randpython" class="">R&python({{category[1].size}})</a>
                         </li>
                     {% endif %}
                 {% endfor %}
@@ -52,9 +52,9 @@
 
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "python" %}
+                    {% if category[0] == "visualization" %}
                         <li>
-                            <a href="/categories/python" class="">python({{category[1].size}})</a>
+                            <a href="/categories/visualization" class="">visualization({{category[1].size}})</a>
                         </li>
                     {% endif %}
                 {% endfor %}
