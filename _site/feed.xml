@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://ijaehun.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ijaehun.github.io/" rel="alternate" type="text/html" /><updated>2021-12-02T03:06:17+09:00</updated><id>https://ijaehun.github.io/feed.xml</id><title type="html">ijaehun’s blog</title><subtitle>통계, 개발공부 등등</subtitle><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><entry><title type="html">memo etc</title><link href="https://ijaehun.github.io/memo/memotest1/" rel="alternate" type="text/html" title="memo etc" /><published>2021-11-21T00:00:00+09:00</published><updated>2021-11-21T00:00:00+09:00</updated><id>https://ijaehun.github.io/memo/memotest1</id><content type="html" xml:base="https://ijaehun.github.io/memo/memotest1/">&lt;h2 id=&quot;터미널-관련-명령어-정리&quot;&gt;터미널 관련 명령어 정리&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://ijaehun.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ijaehun.github.io/" rel="alternate" type="text/html" /><updated>2021-12-06T01:29:49+09:00</updated><id>https://ijaehun.github.io/feed.xml</id><title type="html">ijaehun’s blog</title><subtitle>통계, 개발공부 등등</subtitle><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><entry><title type="html">memo etc</title><link href="https://ijaehun.github.io/memo/memotest1/" rel="alternate" type="text/html" title="memo etc" /><published>2021-11-21T00:00:00+09:00</published><updated>2021-11-21T00:00:00+09:00</updated><id>https://ijaehun.github.io/memo/memotest1</id><content type="html" xml:base="https://ijaehun.github.io/memo/memotest1/">&lt;h2 id=&quot;터미널-관련-명령어-정리&quot;&gt;터미널 관련 명령어 정리&lt;/h2&gt;
 
 &lt;p&gt;mv, vi,&lt;/p&gt;
 
@@ -10,34 +10,11 @@
 
 &lt;h2 id=&quot;책-리뷰&quot;&gt;책 리뷰&lt;/h2&gt;
 
-&lt;p&gt;캘린더, 운동 기록표, 웹&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="memo" /><category term="etc" /><summary type="html">터미널 관련 명령어 정리</summary></entry><entry><title type="html">calculus test1</title><link href="https://ijaehun.github.io/calculus/calculustest1/" rel="alternate" type="text/html" title="calculus test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/calculus/calculustest1</id><content type="html" xml:base="https://ijaehun.github.io/calculus/calculustest1/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
+&lt;p&gt;캘린더, 운동 기록표, 웹&lt;/p&gt;
 
-&lt;p&gt;1
-2
-3
-test&lt;/p&gt;
+&lt;h2 id=&quot;github-blog-window&quot;&gt;github blog window&lt;/h2&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="memo" /><category term="etc" /><summary type="html">터미널 관련 명령어 정리</summary></entry><entry><title type="html">git etc</title><link href="https://ijaehun.github.io/memo/memo2-copy/" rel="alternate" type="text/html" title="git etc" /><published>2021-11-21T00:00:00+09:00</published><updated>2021-11-21T00:00:00+09:00</updated><id>https://ijaehun.github.io/memo/memo2%20copy</id><content type="html" xml:base="https://ijaehun.github.io/memo/memo2-copy/">&lt;h2 id=&quot;git-push-실패&quot;&gt;git push 실패&lt;/h2&gt;
 
-&lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
-
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="calculus" /><category term="calculus" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">test1</summary></entry><entry><title type="html">Deep Learning test1</title><link href="https://ijaehun.github.io/dl/DLtest/" rel="alternate" type="text/html" title="Deep Learning test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/dl/DLtest</id><content type="html" xml:base="https://ijaehun.github.io/dl/DLtest/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
-
-&lt;p&gt;1
-2
-3
-test&lt;/p&gt;
-
-&lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
-
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="DL" /><category term="Deep Learning" /><category term="test1" /><summary type="html">test1</summary></entry><entry><title type="html">DLtest2</title><link href="https://ijaehun.github.io/dl/DLtest2/" rel="alternate" type="text/html" title="DLtest2" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/dl/DLtest2</id><content type="html" xml:base="https://ijaehun.github.io/dl/DLtest2/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
-
-&lt;p&gt;1
-2
-3
-test&lt;/p&gt;
-
-&lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
-
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="DL" /><category term="Deep Learning" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">test1</summary></entry><entry><title type="html">Machine Learning test1</title><link href="https://ijaehun.github.io/ml/MLtest/" rel="alternate" type="text/html" title="Machine Learning test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/ml/MLtest</id><content type="html" xml:base="https://ijaehun.github.io/ml/MLtest/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
+&lt;p&gt;git push 실패를 했는데 그에 관한 이야기 적어놓기&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="memo" /><category term="git" /><summary type="html">git push 실패</summary></entry><entry><title type="html">Machine Learning test1</title><link href="https://ijaehun.github.io/ml/MLtest/" rel="alternate" type="text/html" title="Machine Learning test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/ml/MLtest</id><content type="html" xml:base="https://ijaehun.github.io/ml/MLtest/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
 
 &lt;p&gt;1
 2
@@ -73,7 +50,7 @@ test&lt;/p&gt;
 
 &lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
 
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="analysis" /><category term="analysis" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">샘플 1 샘플 test1</summary></entry><entry><title type="html">discrete math test1</title><link href="https://ijaehun.github.io/dm/dmtest2/" rel="alternate" type="text/html" title="discrete math test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/dm/dmtest2</id><content type="html" xml:base="https://ijaehun.github.io/dm/dmtest2/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
+&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="analysis" /><category term="analysis" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">샘플 1 샘플 test1</summary></entry><entry><title type="html">Deep Learning test1</title><link href="https://ijaehun.github.io/dl/DLtest/" rel="alternate" type="text/html" title="Deep Learning test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/dl/DLtest</id><content type="html" xml:base="https://ijaehun.github.io/dl/DLtest/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
 
 &lt;p&gt;1
 2
@@ -82,7 +59,7 @@ test&lt;/p&gt;
 
 &lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
 
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="dm" /><category term="discrete math" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">test1</summary></entry><entry><title type="html">kaggle test1</title><link href="https://ijaehun.github.io/kaggle/kaggletest1/" rel="alternate" type="text/html" title="kaggle test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/kaggle/kaggletest1</id><content type="html" xml:base="https://ijaehun.github.io/kaggle/kaggletest1/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
+&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="DL" /><category term="Deep Learning" /><category term="test1" /><summary type="html">test1</summary></entry><entry><title type="html">DLtest2</title><link href="https://ijaehun.github.io/dl/DLtest2/" rel="alternate" type="text/html" title="DLtest2" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/dl/DLtest2</id><content type="html" xml:base="https://ijaehun.github.io/dl/DLtest2/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
 
 &lt;p&gt;1
 2
@@ -91,4 +68,22 @@ test&lt;/p&gt;
 
 &lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
 
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="kaggle" /><category term="kaggle" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">test1</summary></entry></feed>
+&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="DL" /><category term="Deep Learning" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">test1</summary></entry><entry><title type="html">calculus test1</title><link href="https://ijaehun.github.io/calculus/calculustest1/" rel="alternate" type="text/html" title="calculus test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/calculus/calculustest1</id><content type="html" xml:base="https://ijaehun.github.io/calculus/calculustest1/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
+
+&lt;p&gt;1
+2
+3
+test&lt;/p&gt;
+
+&lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
+
+&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="calculus" /><category term="calculus" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">test1</summary></entry><entry><title type="html">discrete math test1</title><link href="https://ijaehun.github.io/dm/dmtest2/" rel="alternate" type="text/html" title="discrete math test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/dm/dmtest2</id><content type="html" xml:base="https://ijaehun.github.io/dm/dmtest2/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
+
+&lt;p&gt;1
+2
+3
+test&lt;/p&gt;
+
+&lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
+
+&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="dm" /><category term="discrete math" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">test1</summary></entry></feed>
