@@ -1,0 +1,73 @@
+I"Y	
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/memo/markdown/">markdown 문법 정리</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.12.13
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+                    
+                    
+                    <a href="/tags/#markdown" class="page__taxonomy-item-tag" rel="tag">markdown</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/memo/memo2-copy/">git etc</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.12.06
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+                    
+                    
+                    <a href="/tags/#git" class="page__taxonomy-item-tag" rel="tag">git</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/memo/memotest1/">memo etc</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.21
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+                    
+                    
+                    <a href="/tags/#etc" class="page__taxonomy-item-tag" rel="tag">etc</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+:ET
