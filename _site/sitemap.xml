@@ -4,9 +4,73 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://ijaehun.github.io/memo/markdown/</loc>
+        
+        <lastmod>2021-12-13T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://ijaehun.github.io/randpython/pythonprogramming/</loc>
+        
+        <lastmod>2021-12-13T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://ijaehun.github.io/randpython/Rbasic2/</loc>
+        
+        <lastmod>2021-12-13T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://ijaehun.github.io/randpython/Rbasic1/</loc>
+        
+        <lastmod>2021-12-13T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>https://ijaehun.github.io/memo/memo2-copy/</loc>
         
-        <lastmod>2021-11-21T00:00:00+09:00</lastmod>
+        <lastmod>2021-12-06T00:00:00+09:00</lastmod>
         
 
         
@@ -165,22 +229,6 @@
     
     <url>
         <loc>https://ijaehun.github.io/randpython/pythontest1/</loc>
-        
-        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://ijaehun.github.io/randpython/Rtest1/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         

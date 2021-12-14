@@ -1,6 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://ijaehun.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ijaehun.github.io/" rel="alternate" type="text/html" /><updated>2021-12-06T01:29:49+09:00</updated><id>https://ijaehun.github.io/feed.xml</id><title type="html">ijaehun’s blog</title><subtitle>통계, 개발공부 등등</subtitle><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><entry><title type="html">memo etc</title><link href="https://ijaehun.github.io/memo/memotest1/" rel="alternate" type="text/html" title="memo etc" /><published>2021-11-21T00:00:00+09:00</published><updated>2021-11-21T00:00:00+09:00</updated><id>https://ijaehun.github.io/memo/memotest1</id><content type="html" xml:base="https://ijaehun.github.io/memo/memotest1/">&lt;h2 id=&quot;터미널-관련-명령어-정리&quot;&gt;터미널 관련 명령어 정리&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://ijaehun.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ijaehun.github.io/" rel="alternate" type="text/html" /><updated>2021-12-13T20:17:35+09:00</updated><id>https://ijaehun.github.io/feed.xml</id><title type="html">ijaehun’s blog</title><subtitle>통계, 개발공부 등등</subtitle><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><entry><title type="html">markdown 문법 정리</title><link href="https://ijaehun.github.io/memo/markdown/" rel="alternate" type="text/html" title="markdown 문법 정리" /><published>2021-12-13T00:00:00+09:00</published><updated>2021-12-13T00:00:00+09:00</updated><id>https://ijaehun.github.io/memo/markdown</id><content type="html" xml:base="https://ijaehun.github.io/memo/markdown/">&lt;h1 id=&quot;makrdown-문법-정리&quot;&gt;makrdown 문법 정리&lt;/h1&gt;
 
-&lt;p&gt;mv, vi,&lt;/p&gt;
+&lt;p&gt;맨날 쓰다 보니깐 너무 마크다운 문법을 모르더라 좀 공부를 해야겟다는 생각을 했다.&lt;/p&gt;
+
+&lt;p&gt;뭘 보고 하면 좀 좋을까 생각 중 그냥 구글에 있는거 가져다가 내가 쓸거만 딱 정리하면 좋겟다는 생각이 들어서 이렇게 정리한다.&lt;/p&gt;
+
+&lt;p&gt;일단 내가 생각하기에 블로그글을 읽으려면 빠른 가독성 + 세줄요약 필수라고 생각한다.&lt;/p&gt;
+
+&lt;p&gt;위의 생각을 중점으로 기술하였다. 
+그리고 이를 바탕으로 그냥 아무거나 써보면서 연습해야겠다.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-toc&quot;&gt;1. toc&lt;/h2&gt;
+
+&lt;p&gt;일단 가장 눈에 띄기 때문에 이거부터 정리해보자&lt;/p&gt;
+
+&lt;p&gt;사실 그냥 구글링해서 만든거라서 나도 잘 모른다.&lt;/p&gt;
+
+&lt;p&gt;구글의 많은 박사님들이 toc 기능 실행시키는 것은 상세하게 설명해줄테니 나는 그냥 사용법 정리만 해볼려고 한다. 
+시간이 되면 그때가서 어떻게 기능을 넣었는지 정리해보겠다.&lt;/p&gt;
+
+&lt;p&gt;minimal-mistakes 테마에서는 그냥 toc:true 항목을 추가해주는 것만으로도 된다고한다.&lt;/p&gt;
+
+&lt;p&gt;그때 분명 뭘 추가했던거 같은데 기억이 나지 않는다.&lt;/p&gt;
+
+&lt;p&gt;어쨋든&lt;/p&gt;
+&lt;h3 id=&quot;12-설정방법&quot;&gt;1.2 설정방법&lt;/h3&gt;
+&lt;p&gt;마크다운 헤더 부분
+*—
+title:  “markdown 문법 정리”
+search: false
+categories:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;memo
+tags:&lt;/li&gt;
+  &lt;li&gt;[markdown]
+toc: true
+toc_sticky: true
+*—&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;toc: true 시 추가 가능하고 
+toc_sticky: true 까지 설정시 페이지를 아래로 스크롤 할 때 toc도 동일하게 스크롤 된다고한다.&lt;/p&gt;
+
+&lt;p&gt;가독성 및 정확한 정보를 찾기 쉽게 하기 위한 목차 ? 같은 느낌으로 나는 항상 설정하고 있다.&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="memo" /><category term="markdown" /><summary type="html">makrdown 문법 정리</summary></entry><entry><title type="html">Python Programming</title><link href="https://ijaehun.github.io/randpython/pythonprogramming/" rel="alternate" type="text/html" title="Python Programming" /><published>2021-12-13T00:00:00+09:00</published><updated>2021-12-13T00:00:00+09:00</updated><id>https://ijaehun.github.io/randpython/pythonprogramming</id><content type="html" xml:base="https://ijaehun.github.io/randpython/pythonprogramming/">&lt;h2 id=&quot;python-programming&quot;&gt;Python Programming&lt;/h2&gt;
+
+&lt;p&gt;연습좀 하려는데 백준이나 풀어보자 !&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="Randpython" /><category term="Python" /><category term="Python Programming" /><summary type="html">Python Programming</summary></entry><entry><title type="html">R basic1</title><link href="https://ijaehun.github.io/randpython/Rbasic1/" rel="alternate" type="text/html" title="R basic1" /><published>2021-12-13T00:00:00+09:00</published><updated>2021-12-13T00:00:00+09:00</updated><id>https://ijaehun.github.io/randpython/Rbasic1</id><content type="html" xml:base="https://ijaehun.github.io/randpython/Rbasic1/">&lt;h1 id=&quot;r-기본적인걸-정리해-보려고-한다&quot;&gt;R 기본적인걸 정리해 보려고 한다.&lt;/h1&gt;
+&lt;p&gt;설치, 뭐 이런건 나중에&lt;/p&gt;
+
+&lt;p&gt;conda or pyenv 로 만드는거 다시 정리하도록 하고&lt;/p&gt;
+
+&lt;p&gt;이번에는 그냥 R 변수부터 쭉 대충 어떤거 써서 하는지 정리&lt;/p&gt;
+
+&lt;p&gt;맨날 구글에다 쳐보는거 귀찮아서 정리해놓고 이거 볼란다.&lt;/p&gt;
+
+&lt;p&gt;어짜피 그때가서 또 모르면 구글링 하겠지만 그때 또 모르는거 정리했다가&lt;/p&gt;
+
+&lt;p&gt;여기다가 업로드하면서 많이 올릴 예정&lt;/p&gt;
+
+&lt;p&gt;각 목차별로 좀 알맞는 데이터는 캐글에서 간단하게 구해서 예제 형식으로 보여줄 예정&lt;/p&gt;
+
+&lt;p&gt;이 후 그대로 똑같은 데이터로 python으로 분석하면서 python 공부도 겸사겸사 할 예정&lt;/p&gt;
+
+&lt;p&gt;근데 이렇게 적다보니깐 마크다운 문법도 공부좀 해야할 듯&lt;/p&gt;
+
+&lt;p&gt;-데이터 분석의 모든것 / 장원중 이정인 지음 -
+및 구글링 참고
+감사합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;r-설치&quot;&gt;R 설치&lt;/h2&gt;
+&lt;p&gt;추후 conda or pyenv 버전관리 하면서 상세하게 설명&lt;/p&gt;
+
+&lt;h2 id=&quot;변수-데이터-타입&quot;&gt;변수 데이터 타입&lt;/h2&gt;
+
+&lt;h2 id=&quot;데이터-구조&quot;&gt;데이터 구조&lt;/h2&gt;
+
+&lt;h2 id=&quot;기초-프로그래밍&quot;&gt;기초 프로그래밍&lt;/h2&gt;
+
+&lt;h2 id=&quot;r을-이용한-데이터-조작-방법&quot;&gt;R을 이용한 데이터 조작 방법&lt;/h2&gt;
+
+&lt;p&gt;내 생각에는 이게 핵심 
+여기 중점적으로 설명&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="Randpython" /><category term="R" /><summary type="html">R 기본적인걸 정리해 보려고 한다. 설치, 뭐 이런건 나중에</summary></entry><entry><title type="html">R basic2</title><link href="https://ijaehun.github.io/randpython/Rbasic2/" rel="alternate" type="text/html" title="R basic2" /><published>2021-12-13T00:00:00+09:00</published><updated>2021-12-13T00:00:00+09:00</updated><id>https://ijaehun.github.io/randpython/Rbasic2</id><content type="html" xml:base="https://ijaehun.github.io/randpython/Rbasic2/">&lt;h2 id=&quot;데이터-전처리&quot;&gt;데이터 전처리&lt;/h2&gt;
+
+&lt;p&gt;데이터 변환, 처리 
+데이터 마트
+파생변수 
+요약변수 
+R의 reshape2패키지를 활용한 데이터셋 구조의 변형 등&lt;/p&gt;
+
+&lt;h2 id=&quot;데이터-탐색&quot;&gt;데이터 탐색&lt;/h2&gt;
+
+&lt;h2 id=&quot;데이터-구조&quot;&gt;데이터 구조&lt;/h2&gt;
+
+&lt;h2 id=&quot;기초-프로그래밍&quot;&gt;기초 프로그래밍&lt;/h2&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="Randpython" /><category term="R" /><summary type="html">데이터 전처리</summary></entry><entry><title type="html">git etc</title><link href="https://ijaehun.github.io/memo/memo2-copy/" rel="alternate" type="text/html" title="git etc" /><published>2021-12-06T00:00:00+09:00</published><updated>2021-12-06T00:00:00+09:00</updated><id>https://ijaehun.github.io/memo/memo2%20copy</id><content type="html" xml:base="https://ijaehun.github.io/memo/memo2-copy/">&lt;h2 id=&quot;git-push-실패&quot;&gt;git push 실패&lt;/h2&gt;
+
+&lt;p&gt;git push 실패를 했는데 그에 관한 이야기 적어놓기&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="memo" /><category term="git" /><summary type="html">git push 실패</summary></entry><entry><title type="html">memo etc</title><link href="https://ijaehun.github.io/memo/memotest1/" rel="alternate" type="text/html" title="memo etc" /><published>2021-11-21T00:00:00+09:00</published><updated>2021-11-21T00:00:00+09:00</updated><id>https://ijaehun.github.io/memo/memotest1</id><content type="html" xml:base="https://ijaehun.github.io/memo/memotest1/">&lt;h2 id=&quot;터미널-관련-명령어-정리&quot;&gt;터미널 관련 명령어 정리&lt;/h2&gt;
+
+&lt;p&gt;mv, vi, -&amp;gt; 책보면 좋을라나 ?&lt;/p&gt;
 
 &lt;h2 id=&quot;마크다운-문법-정리&quot;&gt;마크다운 문법 정리&lt;/h2&gt;
 
@@ -12,18 +106,11 @@
 
 &lt;p&gt;캘린더, 운동 기록표, 웹&lt;/p&gt;
 
-&lt;h2 id=&quot;github-blog-window&quot;&gt;github blog window&lt;/h2&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="memo" /><category term="etc" /><summary type="html">터미널 관련 명령어 정리</summary></entry><entry><title type="html">git etc</title><link href="https://ijaehun.github.io/memo/memo2-copy/" rel="alternate" type="text/html" title="git etc" /><published>2021-11-21T00:00:00+09:00</published><updated>2021-11-21T00:00:00+09:00</updated><id>https://ijaehun.github.io/memo/memo2%20copy</id><content type="html" xml:base="https://ijaehun.github.io/memo/memo2-copy/">&lt;h2 id=&quot;git-push-실패&quot;&gt;git push 실패&lt;/h2&gt;
+&lt;h2 id=&quot;github-blog-window&quot;&gt;github blog window&lt;/h2&gt;
 
-&lt;p&gt;git push 실패를 했는데 그에 관한 이야기 적어놓기&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="memo" /><category term="git" /><summary type="html">git push 실패</summary></entry><entry><title type="html">Machine Learning test1</title><link href="https://ijaehun.github.io/ml/MLtest/" rel="alternate" type="text/html" title="Machine Learning test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/ml/MLtest</id><content type="html" xml:base="https://ijaehun.github.io/ml/MLtest/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
+&lt;h2 id=&quot;vs-code-명령어-정리&quot;&gt;vs code 명령어 정리&lt;/h2&gt;
 
-&lt;p&gt;1
-2
-3
-test&lt;/p&gt;
-
-&lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
-
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="ML" /><category term="Machine Learning" /><category term="test1" /><summary type="html">test1</summary></entry><entry><title type="html">R test1</title><link href="https://ijaehun.github.io/randpython/Rtest1/" rel="alternate" type="text/html" title="R test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/randpython/Rtest1</id><content type="html" xml:base="https://ijaehun.github.io/randpython/Rtest1/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
+&lt;p&gt;하다보니깐 이거도 해야겟다 너무 할게 많아진거 같다 내일부터 하나씩 정리해가보자 !&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="memo" /><category term="etc" /><summary type="html">터미널 관련 명령어 정리</summary></entry><entry><title type="html">discrete math test1</title><link href="https://ijaehun.github.io/dm/dmtest2/" rel="alternate" type="text/html" title="discrete math test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/dm/dmtest2</id><content type="html" xml:base="https://ijaehun.github.io/dm/dmtest2/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
 
 &lt;p&gt;1
 2
@@ -32,7 +119,7 @@ test&lt;/p&gt;
 
 &lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
 
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="Randpython" /><category term="R" /><category term="test1" /><summary type="html">test1</summary></entry><entry><title type="html">Python test1</title><link href="https://ijaehun.github.io/randpython/pythontest1/" rel="alternate" type="text/html" title="Python test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/randpython/pythontest1</id><content type="html" xml:base="https://ijaehun.github.io/randpython/pythontest1/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
+&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="dm" /><category term="discrete math" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">test1</summary></entry><entry><title type="html">kaggle test1</title><link href="https://ijaehun.github.io/kaggle/kaggletest1/" rel="alternate" type="text/html" title="kaggle test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/kaggle/kaggletest1</id><content type="html" xml:base="https://ijaehun.github.io/kaggle/kaggletest1/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
 
 &lt;p&gt;1
 2
@@ -41,16 +128,7 @@ test&lt;/p&gt;
 
 &lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
 
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="Randpython" /><category term="python" /><category term="test1" /><summary type="html">test1</summary></entry><entry><title type="html">analysis test1</title><link href="https://ijaehun.github.io/analysis/analysistest1/" rel="alternate" type="text/html" title="analysis test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/analysis/analysistest1</id><content type="html" xml:base="https://ijaehun.github.io/analysis/analysistest1/">&lt;p&gt;샘플&lt;/p&gt;
-&lt;h1 id=&quot;1&quot;&gt;1&lt;/h1&gt;
-&lt;p&gt;샘플&lt;/p&gt;
-&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
-
-&lt;p&gt;123&lt;/p&gt;
-
-&lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
-
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="analysis" /><category term="analysis" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">샘플 1 샘플 test1</summary></entry><entry><title type="html">Deep Learning test1</title><link href="https://ijaehun.github.io/dl/DLtest/" rel="alternate" type="text/html" title="Deep Learning test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/dl/DLtest</id><content type="html" xml:base="https://ijaehun.github.io/dl/DLtest/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
+&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="kaggle" /><category term="kaggle" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">test1</summary></entry><entry><title type="html">mathematical statistics test1</title><link href="https://ijaehun.github.io/ms/mstest/" rel="alternate" type="text/html" title="mathematical statistics test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/ms/mstest</id><content type="html" xml:base="https://ijaehun.github.io/ms/mstest/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
 
 &lt;p&gt;1
 2
@@ -59,7 +137,7 @@ test&lt;/p&gt;
 
 &lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
 
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="DL" /><category term="Deep Learning" /><category term="test1" /><summary type="html">test1</summary></entry><entry><title type="html">DLtest2</title><link href="https://ijaehun.github.io/dl/DLtest2/" rel="alternate" type="text/html" title="DLtest2" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/dl/DLtest2</id><content type="html" xml:base="https://ijaehun.github.io/dl/DLtest2/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
+&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="ms" /><category term="mathematical statistics" /><category term="test1" /><summary type="html">test1</summary></entry><entry><title type="html">probability theory test1</title><link href="https://ijaehun.github.io/pt/pttest1/" rel="alternate" type="text/html" title="probability theory test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/pt/pttest1</id><content type="html" xml:base="https://ijaehun.github.io/pt/pttest1/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
 
 &lt;p&gt;1
 2
@@ -68,22 +146,4 @@ test&lt;/p&gt;
 
 &lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
 
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="DL" /><category term="Deep Learning" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">test1</summary></entry><entry><title type="html">calculus test1</title><link href="https://ijaehun.github.io/calculus/calculustest1/" rel="alternate" type="text/html" title="calculus test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/calculus/calculustest1</id><content type="html" xml:base="https://ijaehun.github.io/calculus/calculustest1/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
-
-&lt;p&gt;1
-2
-3
-test&lt;/p&gt;
-
-&lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
-
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="calculus" /><category term="calculus" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">test1</summary></entry><entry><title type="html">discrete math test1</title><link href="https://ijaehun.github.io/dm/dmtest2/" rel="alternate" type="text/html" title="discrete math test1" /><published>2021-11-20T00:00:00+09:00</published><updated>2021-11-20T00:00:00+09:00</updated><id>https://ijaehun.github.io/dm/dmtest2</id><content type="html" xml:base="https://ijaehun.github.io/dm/dmtest2/">&lt;h2 id=&quot;test1&quot;&gt;test1&lt;/h2&gt;
-
-&lt;p&gt;1
-2
-3
-test&lt;/p&gt;
-
-&lt;h2 id=&quot;test2&quot;&gt;test2&lt;/h2&gt;
-
-&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="dm" /><category term="discrete math" /><category term="test1" /><category term="test2" /><category term="test3" /><summary type="html">test1</summary></entry></feed>
+&lt;p&gt;test213&lt;/p&gt;</content><author><name>ijaehun</name><email>dynamic97312@naver.com</email></author><category term="pt" /><category term="probability theory" /><category term="test1" /><summary type="html">test1</summary></entry></feed>
