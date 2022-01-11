@@ -4,6 +4,54 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://ijaehun.github.io/2022-01-11-memourl/</loc>
+        
+        <lastmod>2022-01-11T20:18:29+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://ijaehun.github.io/memo/qgis/</loc>
+        
+        <lastmod>2021-12-27T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://ijaehun.github.io/randpython/Rdata/</loc>
+        
+        <lastmod>2021-12-15T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>https://ijaehun.github.io/memo/markdown/</loc>
         
         <lastmod>2021-12-13T00:00:00+09:00</lastmod>

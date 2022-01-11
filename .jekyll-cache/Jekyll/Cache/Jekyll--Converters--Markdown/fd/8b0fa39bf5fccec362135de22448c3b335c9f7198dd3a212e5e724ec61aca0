@@ -1,0 +1,132 @@
+I"�<h1 id="참고-url">참고 URL</h1>
+
+<h2 id="기타등등">기타등등</h2>
+
+<p>나도코딩
+https://nadocoding.tistory.com/15</p>
+
+<p>-가상환경 / 파이썬
+python - version control
+https://dojang.io/mod/page/view.php?id=2470</p>
+
+<p>window python venv 가상환경 실행 관련
+https://hcnoh.github.io/2019-06-19-windows-python-virtualenv</p>
+
+<ol>
+  <li>
+    <p>conda 명령어
+https://medium.com/@5eo1ab/conda-env-%ED%84%B0%EB%AF%B8%EB%84%90-%EB%AA%85%EB%A0%B9%EC%96%B4-adc8366f8a9d</p>
+  </li>
+  <li>
+    <p>conda package 삭제
+https://antilibrary.org/2099</p>
+  </li>
+</ol>
+
+<p>-R library
+https://anaconda.org/r/rstudio</p>
+
+<ol>
+  <li>
+    <p>인스타그램 크롤링 (python)
+https://somjang.tistory.com/entry/Python-%EC%9D%B8%EC%8A%A4%ED%83%80-%EA%B7%B8%EB%9E%A8-%ED%83%9C%EA%B7%B8%EB%A5%BC-%ED%81%AC%EB%A1%A4%EB%A7%81%ED%95%98%EC%97%AC-%EC%9B%8C%EB%93%9C%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0
+https://somjang.tistory.com/entry/Python-Selenium%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%98%EC%97%AC-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%ED%81%AC%EB%A1%A4%EB%A7%81-%ED%95%98%EA%B8%B0?category=345065
+https://hansuho113.tistory.com/7?category=913503#recentComments
+https://hansuho113.tistory.com/m/11</p>
+  </li>
+  <li>
+    <p>엑셀 크롤링
+https://www.oppadu.com/%EC%97%91%EC%85%80-%ED%81%AC%EB%A1%A4%EB%A7%81-%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%B6%80%EB%8F%99%EC%82%B0/</p>
+  </li>
+</ol>
+
+<p>R 크롤링
+https://soh9646.tistory.com/22</p>
+
+<ol>
+  <li>
+    <p>geopandas
+https://blog.daum.net/geoscience/1659</p>
+  </li>
+  <li>
+    <p>R write.csv
+https://rbasall.tistory.com/133</p>
+  </li>
+  <li>
+    <p>역 지오코딩
+https://ichi.pro/ko/python-ui-jio-koding-mich-yeog-jio-koding-211179977210306
+https://stackoverflow.com/questions/26276769/python-geopy-install
+shp주소변환
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&amp;blogId=hss2864&amp;logNo=221645854030
+https://blog.naver.com/PostView.naver?blogId=hss2864&amp;logNo=221645763282&amp;parentCategoryNo=&amp;categoryNo=22&amp;viewDate=&amp;isShowPopularPosts=true&amp;from=search</p>
+  </li>
+</ol>
+
+<p>7.1 지오코딩
+https://redhorse046.tistory.com/58</p>
+
+<ol>
+  <li>
+    <p>R 막대그래프
+https://rvisuall.tistory.com/27</p>
+  </li>
+  <li>
+    <p>mariaDB
+https://docs.microsoft.com/ko-kr/azure/mariadb/quickstart-create-mariadb-server-database-using-azure-portal</p>
+  </li>
+  <li>
+    <p>github token 
+https://curryyou.tistory.com/344</p>
+  </li>
+  <li>
+    <p>메타분석
+https://t-lab.tistory.com/12?category=611994</p>
+  </li>
+  <li>
+    <p>AI관련 블로그
+https://koreapy.tistory.com/1025?category=1023557</p>
+  </li>
+  <li>
+    <p>커널밀도함수
+https://darkpgmr.tistory.com/147
+https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj</p>
+  </li>
+  <li>
+    <p>공공 API 사용 
+https://jeong-pro.tistory.com/143</p>
+  </li>
+  <li>
+    <p>해외논문
+https://worldemojumo.tistory.com/45
+https://arxiv.org/list/cs.AI/recent
+https://paperswithcode.com/</p>
+  </li>
+</ol>
+
+<hr />
+<h2 id="postgresql">PostgreSQL</h2>
+
+<p>postgreSQL 서버 접속
+https://postgresql.kr/blog/postgresql_for_windows.html</p>
+
+<p>postgreSQL 관련
+https://sujinisacat.tistory.com/9?category=401454</p>
+
+<p>postgreSQL 서버 실행
+http://daplus.net/postgresql-windows%EC%97%90%EC%84%9C-postgresql%EC%9D%84-%EC%8B%9C%EC%9E%91%ED%95%98%EB%A0%A4%EB%A9%B4-%EC%96%B4%EB%96%BB%EA%B2%8C%ED%95%B4%EC%95%BC%ED%95%A9%EB%8B%88%EA%B9%8C/</p>
+
+<p>postgreSQL CSV 파일 인코딩 
+https://sidorl.tistory.com/27</p>
+
+<p>postgreSQL R 연동
+https://github.com/r-dbi/RPostgres
+install.packages(“RPostgres”)
+install.packages(“DBI”)</p>
+
+<p>con &lt;- dbConnect(RPostgres::Postgres(),dbname = ‘stdb’, 
+                 host = ‘192.168.0.46’, # i.e. ‘ec2-54-83-201-96.compute-1.amazonaws.com’
+                 port = 5432, # or any other port specified by your DBA
+                 user = ‘postgres’,
+                 password = ‘1234’)</p>
+
+:ET
