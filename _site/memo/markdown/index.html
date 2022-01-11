@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>markdown 문법 정리 - ijaehun’s blog</title>
-<meta name="description" content="makrdown 문법 정리">
+<meta name="description" content="맨날 쓰다 보니깐 너무 마크다운 문법을 모르더라 좀 공부를 해야겟다는 생각을 했다.">
 
 
   <meta name="author" content="ijaehun">
@@ -26,7 +26,7 @@
 <meta property="og:url" content="https://ijaehun.github.io/memo/markdown/">
 
 
-  <meta property="og:description" content="makrdown 문법 정리">
+  <meta property="og:description" content="맨날 쓰다 보니깐 너무 마크다운 문법을 모르더라 좀 공부를 해야겟다는 생각을 했다.">
 
 
 
@@ -342,7 +342,7 @@
         <li>
             📂
             <span style="font-family:'Cafe24SsurroundAir';">전체 글 수</style>
-            <span style="font-family:''Cafe24SsurroundAir';">19</style>
+            <span style="font-family:''Cafe24SsurroundAir';">22</style>
             <span style="font-family:'Cafe24SsurroundAir';">개</style>
         </li>
 
@@ -427,7 +427,7 @@
                 
                     
                         <li>
-                            <a href="/categories/Randpython" class="">R&python(4)</a>
+                            <a href="/categories/Randpython" class="">R&python(5)</a>
                         </li>
                     
                 
@@ -759,7 +759,7 @@
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="markdown 문법 정리">
-    <meta itemprop="description" content="makrdown 문법 정리">
+    <meta itemprop="description" content="맨날 쓰다 보니깐 너무 마크다운 문법을 모르더라 좀 공부를 해야겟다는 생각을 했다.">
     <meta itemprop="datePublished" content="2021-12-13T00:00:00+09:00">
     <meta itemprop="dateModified" content="2021-12-13T00:00:00+09:00">
 
@@ -779,14 +779,12 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On This Page</h4></header>
-              <ul class="toc__menu"><li><a href="#makrdown-문법-정리">makrdown 문법 정리</a><ul><li><a href="#1-toc">1. toc</a><ul><li><a href="#12-설정방법">1.2 설정방법</a></li></ul></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#1-toc">1. toc</a><ul><li><a href="#11-설정방법">1.1 설정방법</a></li></ul></li><li><a href="#2-마크다운-문법">2. 마크다운 문법</a><ul><li><a href="#21-헤더">2.1 헤더</a></li></ul></li><li><a href="#타이포라--vs-code-비교">타이포라 / vs code 비교</a></li></ul></li></ul>
 
             </nav>
           </aside>
         
-        <h1 id="makrdown-문법-정리">makrdown 문법 정리</h1>
-
-<p>맨날 쓰다 보니깐 너무 마크다운 문법을 모르더라 좀 공부를 해야겟다는 생각을 했다.</p>
+        <p>맨날 쓰다 보니깐 너무 마크다운 문법을 모르더라 좀 공부를 해야겟다는 생각을 했다.</p>
 
 <p>뭘 보고 하면 좀 좋을까 생각 중 그냥 구글에 있는거 가져다가 내가 쓸거만 딱 정리하면 좋겟다는 생각이 들어서 이렇게 정리한다.</p>
 
@@ -795,7 +793,7 @@
 <p>위의 생각을 중점으로 기술하였다. 
 그리고 이를 바탕으로 그냥 아무거나 써보면서 연습해야겠다.</p>
 
-<h2 id="1-toc">1. toc</h2>
+<h1 id="1-toc">1. toc</h1>
 
 <p>일단 가장 눈에 띄기 때문에 이거부터 정리해보자</p>
 
@@ -809,25 +807,51 @@
 <p>그때 분명 뭘 추가했던거 같은데 기억이 나지 않는다.</p>
 
 <p>어쨋든</p>
-<h3 id="12-설정방법">1.2 설정방법</h3>
-<p>마크다운 헤더 부분
-*—
+<h2 id="11-설정방법">1.1 설정방법</h2>
+
+<p>마크다운 헤더 부분</p>
+
+<p>`—
 title:  “markdown 문법 정리”
 search: false
 categories:</p>
+
 <ul>
-  <li>memo
-tags:</li>
-  <li>[markdown]
-toc: true
-toc_sticky: true
-*—</li>
+  <li>
+    <p>memo
+  tags:</p>
+  </li>
+  <li>
+    <p>[markdown]
+  toc: true
+  toc_sticky: true</p>
+  </li>
 </ul>
+
+<p>`—</p>
 
 <p>toc: true 시 추가 가능하고 
 toc_sticky: true 까지 설정시 페이지를 아래로 스크롤 할 때 toc도 동일하게 스크롤 된다고한다.</p>
 
 <p>가독성 및 정확한 정보를 찾기 쉽게 하기 위한 목차 ? 같은 느낌으로 나는 항상 설정하고 있다.</p>
+
+<p>*## 이런식으로 #을 추가해가면서 목차 및 세부목차를 집어넣을 수 있다.</p>
+
+<p>이정도만 정리해도 충분하다고 본다.</p>
+
+<h1 id="2-마크다운-문법">2. 마크다운 문법</h1>
+
+<h3 id="21-헤더">2.1 헤더</h3>
+
+<p>큰제목</p>
+
+<p>이런식으로 막 적어놓고 나중에가서 문법 정리하면서 공부하면 개이득이 아닐까 ?</p>
+
+<h2 id="타이포라--vs-code-비교">타이포라 / vs code 비교</h2>
+
+<p>확실히 타이포라가 바로 변하니깐 좀 직관적이고 좋은거 같음.</p>
+
+<p>근데 vs code로 쓰다보니깐 이게 더 편한거 같기도 하지만 타이포라로 많이 해볼 예정</p>
 
 
         
@@ -890,6 +914,8 @@ toc_sticky: true 까지 설정시 페이지를 아래로 스크롤 할 때 toc�
 
 
   
+
+  
   	
   	
   	
@@ -903,7 +929,7 @@ toc_sticky: true 까지 설정시 페이지를 아래로 스크롤 할 때 toc�
       <a href="/memo/memo2-copy/" class="pagination--pager">이전</a>
     
     
-      <a href="#" class="pagination--pager disabled">다음</a>
+      <a href="/memo/qgis/" class="pagination--pager">다음</a>
     
   </nav>
 
@@ -918,6 +944,86 @@ toc_sticky: true 까지 설정시 페이지를 아래로 스크롤 할 때 toc�
     <div class="page__related">
       <h2 class="page__related-title">참고</h2>
       <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 2022.01.11</p>
+      
+      
+        <a href="/2022-01-11-memourl/" rel="permalink">
+</a>
+      
+    </h2>
+    
+  </article>
+</div>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 2021.12.27</p>
+      
+      
+        <a href="/memo/qgis/" rel="permalink">qgis
+</a>
+      
+    </h2>
+    <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+                    
+                    
+                    <a href="/tags/#qgis" class="page__taxonomy-item-tag" rel="tag">qgis</a>
+                
+            </span>
+        </span>
+  </article>
+</div>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 2021.12.15</p>
+      
+      
+        <a href="/randpython/Rdata/" rel="permalink">R data
+</a>
+      
+    </h2>
+    <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#randpython" class="page__taxonomy-item-category" rel="tag">Randpython</a>
+                    
+                    
+                    <a href="/tags/#r" class="page__taxonomy-item-tag" rel="tag">R</a>
+                
+            </span>
+        </span>
+  </article>
+</div>
         
           
 
@@ -947,96 +1053,6 @@ toc_sticky: true 까지 설정시 페이지를 아래로 스크롤 할 때 toc�
                     
                     
                     <a href="/tags/#python" class="page__taxonomy-item-tag" rel="tag">Python</a>
-                
-            </span>
-        </span>
-  </article>
-</div>
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 2021.12.13</p>
-      
-      
-        <a href="/randpython/Rbasic2/" rel="permalink">R basic2
-</a>
-      
-    </h2>
-    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#randpython" class="page__taxonomy-item-category" rel="tag">Randpython</a>
-                    
-                    
-                    <a href="/tags/#r" class="page__taxonomy-item-tag" rel="tag">R</a>
-                
-            </span>
-        </span>
-  </article>
-</div>
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 2021.12.13</p>
-      
-      
-        <a href="/randpython/Rbasic1/" rel="permalink">R basic1
-</a>
-      
-    </h2>
-    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#randpython" class="page__taxonomy-item-category" rel="tag">Randpython</a>
-                    
-                    
-                    <a href="/tags/#r" class="page__taxonomy-item-tag" rel="tag">R</a>
-                
-            </span>
-        </span>
-  </article>
-</div>
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 2021.12.06</p>
-      
-      
-        <a href="/memo/memo2-copy/" rel="permalink">git etc
-</a>
-      
-    </h2>
-    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
-                    
-                    
-                    <a href="/tags/#git" class="page__taxonomy-item-tag" rel="tag">git</a>
                 
             </span>
         </span>
@@ -1100,7 +1116,7 @@ toc_sticky: true 까지 설정시 페이지를 아래로 스크롤 할 때 toc�
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 ijaehun. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 ijaehun. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

@@ -1,5 +1,5 @@
 ---
-title:  "Python test1"
+title:  "Python version 관리"
 search: false
 categories: 
   - Randpython
