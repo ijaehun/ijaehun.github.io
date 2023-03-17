@@ -4,9 +4,73 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>https://ijaehun.github.io/2022-01-11-memourl/</loc>
+        <loc>https://ijaehun.github.io/memo/thinking2/</loc>
         
-        <lastmod>2022-01-11T20:18:29+09:00</lastmod>
+        <lastmod>2022-03-24T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://ijaehun.github.io/memo/thinking/</loc>
+        
+        <lastmod>2022-03-23T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://ijaehun.github.io/memo/explaiep1/</loc>
+        
+        <lastmod>2022-01-22T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://ijaehun.github.io/memo/PostgreSQL/</loc>
+        
+        <lastmod>2022-01-13T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://ijaehun.github.io/memo/memourl/</loc>
+        
+        <lastmod>2022-01-11T00:00:00+09:00</lastmod>
         
 
         

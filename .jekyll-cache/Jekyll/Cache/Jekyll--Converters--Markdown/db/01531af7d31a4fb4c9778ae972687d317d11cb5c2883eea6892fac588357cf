@@ -1,0 +1,225 @@
+I"m
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/memo/thinking2/">thinking2</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.03.24
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+                    
+                    
+                    <a href="/tags/#report" class="page__taxonomy-item-tag" rel="tag">report</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/memo/thinking/">thinking</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.03.23
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+                    
+                    
+                    <a href="/tags/#report" class="page__taxonomy-item-tag" rel="tag">report</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/memo/explaiep1/">explain EP.1 집중력의 비결</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.01.22
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+                    
+                    
+                    <a href="/tags/#report" class="page__taxonomy-item-tag" rel="tag">report</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/memo/PostgreSQL/">PostgreSQL</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.01.13
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+                    
+                    
+                    <a href="/tags/#db" class="page__taxonomy-item-tag" rel="tag">DB</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#postgresql" class="page__taxonomy-item-tag" rel="tag">PostgreSQL</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/memo/memourl/">memo URL</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.01.11
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+                    
+                    
+                    <a href="/tags/#etc" class="page__taxonomy-item-tag" rel="tag">etc</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#url" class="page__taxonomy-item-tag" rel="tag">URL</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/memo/qgis/">qgis</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.12.27
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+                    
+                    
+                    <a href="/tags/#qgis" class="page__taxonomy-item-tag" rel="tag">qgis</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/memo/markdown/">markdown 문법 정리</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.12.13
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+                    
+                    
+                    <a href="/tags/#markdown" class="page__taxonomy-item-tag" rel="tag">markdown</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/memo/memo2-copy/">git etc</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.12.06
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+                    
+                    
+                    <a href="/tags/#git" class="page__taxonomy-item-tag" rel="tag">git</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/memo/memotest1/">memo etc</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.21
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+                    
+                    
+                    <a href="/tags/#etc" class="page__taxonomy-item-tag" rel="tag">etc</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+:ET
