@@ -4,7 +4,39 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>https://ijaehun.github.io/memo/thinking2/</loc>
+        <loc>http://localhost:4000/dl/DLStudy1/</loc>
+        
+        <lastmod>2023-03-24T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/dl/DLStudy0/</loc>
+        
+        <lastmod>2023-03-24T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/memo/thinking2/</loc>
         
         <lastmod>2022-03-24T00:00:00+09:00</lastmod>
         
@@ -20,7 +52,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/memo/thinking/</loc>
+        <loc>http://localhost:4000/memo/thinking/</loc>
         
         <lastmod>2022-03-23T00:00:00+09:00</lastmod>
         
@@ -36,7 +68,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/memo/explaiep1/</loc>
+        <loc>http://localhost:4000/memo/explaiep1/</loc>
         
         <lastmod>2022-01-22T00:00:00+09:00</lastmod>
         
@@ -52,7 +84,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/memo/PostgreSQL/</loc>
+        <loc>http://localhost:4000/memo/PostgreSQL/</loc>
         
         <lastmod>2022-01-13T00:00:00+09:00</lastmod>
         
@@ -68,7 +100,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/memo/memourl/</loc>
+        <loc>http://localhost:4000/memo/memourl/</loc>
         
         <lastmod>2022-01-11T00:00:00+09:00</lastmod>
         
@@ -84,7 +116,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/memo/qgis/</loc>
+        <loc>http://localhost:4000/memo/qgis/</loc>
         
         <lastmod>2021-12-27T00:00:00+09:00</lastmod>
         
@@ -100,7 +132,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/randpython/Rdata/</loc>
+        <loc>http://localhost:4000/randpython/Rdata/</loc>
         
         <lastmod>2021-12-15T00:00:00+09:00</lastmod>
         
@@ -116,7 +148,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/memo/markdown/</loc>
+        <loc>http://localhost:4000/memo/markdown/</loc>
         
         <lastmod>2021-12-13T00:00:00+09:00</lastmod>
         
@@ -132,7 +164,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/randpython/pythonprogramming/</loc>
+        <loc>http://localhost:4000/randpython/pythonprogramming/</loc>
         
         <lastmod>2021-12-13T00:00:00+09:00</lastmod>
         
@@ -148,7 +180,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/randpython/Rbasic2/</loc>
+        <loc>http://localhost:4000/randpython/Rbasic2/</loc>
         
         <lastmod>2021-12-13T00:00:00+09:00</lastmod>
         
@@ -164,7 +196,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/randpython/Rbasic1/</loc>
+        <loc>http://localhost:4000/randpython/Rbasic1/</loc>
         
         <lastmod>2021-12-13T00:00:00+09:00</lastmod>
         
@@ -180,7 +212,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/memo/memo2-copy/</loc>
+        <loc>http://localhost:4000/memo/memo2-copy/</loc>
         
         <lastmod>2021-12-06T00:00:00+09:00</lastmod>
         
@@ -196,7 +228,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/memo/memotest1/</loc>
+        <loc>http://localhost:4000/memo/memotest1/</loc>
         
         <lastmod>2021-11-21T00:00:00+09:00</lastmod>
         
@@ -212,7 +244,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/visualization/visualizationtest1/</loc>
+        <loc>http://localhost:4000/visualization/visualizationtest1/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
@@ -228,7 +260,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/pt/pttest1/</loc>
+        <loc>http://localhost:4000/pt/pttest1/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
@@ -244,7 +276,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/ms/mstest/</loc>
+        <loc>http://localhost:4000/ms/mstest/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
@@ -260,7 +292,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/la/latest1/</loc>
+        <loc>http://localhost:4000/la/latest1/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
@@ -276,7 +308,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/kaggle/kaggletest1/</loc>
+        <loc>http://localhost:4000/kaggle/kaggletest1/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
@@ -292,7 +324,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/dm/dmtest2/</loc>
+        <loc>http://localhost:4000/dm/dmtest2/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
@@ -308,7 +340,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/calculus/calculustest1/</loc>
+        <loc>http://localhost:4000/calculus/calculustest1/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
@@ -324,7 +356,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/analysis/analysistest1/</loc>
+        <loc>http://localhost:4000/analysis/analysistest1/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
@@ -340,7 +372,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/randpython/pythontest1/</loc>
+        <loc>http://localhost:4000/randpython/pythontest1/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
@@ -356,7 +388,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/ml/MLtest/</loc>
+        <loc>http://localhost:4000/ml/MLtest/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
@@ -372,7 +404,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/dl/DLtest2/</loc>
+        <loc>http://localhost:4000/dl/DLtest2/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
@@ -388,7 +420,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/dl/DLtest/</loc>
+        <loc>http://localhost:4000/dl/DLtest/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
@@ -404,7 +436,7 @@
     </url>
     
     <url>
-        <loc>https://ijaehun.github.io/ms/ms1/</loc>
+        <loc>http://localhost:4000/ms/ms1/</loc>
         
         <lastmod>2021-11-19T00:00:00+09:00</lastmod>
         
