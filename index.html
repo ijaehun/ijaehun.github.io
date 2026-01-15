@@ -19,14 +19,14 @@ layout: default
           <p class="terminal__output"><strong>JaeHoon Lee</strong> @ijaehun</p>
 
           <p class="terminal__line"><span class="terminal__prompt">$</span> cat role.txt</p>
-          <p class="terminal__output highlight">🤖 AI/ML Developer & Data Scientist</p>
+          <p class="terminal__output highlight">Ph.D. Candidate in AI | ML Researcher</p>
 
-          <p class="terminal__line"><span class="terminal__prompt">$</span> head -3 interests.md</p>
+          <p class="terminal__line"><span class="terminal__prompt">$</span> head -3 research.md</p>
           <p class="terminal__output">
-            <span class="terminal__comment"># What I Love</span><br>
-            - Building intelligent systems<br>
-            - Turning data into insights<br>
-            - Solving complex problems
+            <span class="terminal__comment"># Research Interests</span><br>
+            - Time Series Forecasting<br>
+            - Representation Learning<br>
+            - Statistical Machine Learning
           </p>
 
           <p class="terminal__line"><span class="terminal__prompt">$</span> ls links/</p>
@@ -41,44 +41,44 @@ layout: default
       <!-- Right: Highlights -->
       <div class="highlights">
         <div class="highlight-card">
+          <div class="highlight-card__icon">📈</div>
+          <div class="highlight-card__content">
+            <h3>Time Series</h3>
+            <p>Forecasting, Anomaly Detection</p>
+          </div>
+        </div>
+
+        <div class="highlight-card">
           <div class="highlight-card__icon">🧠</div>
           <div class="highlight-card__content">
-            <h3>Machine Learning</h3>
-            <p>TensorFlow, PyTorch, Scikit-learn</p>
+            <h3>Deep Learning</h3>
+            <p>PyTorch, TensorFlow</p>
           </div>
         </div>
 
         <div class="highlight-card">
           <div class="highlight-card__icon">📊</div>
           <div class="highlight-card__content">
-            <h3>Data Analysis</h3>
-            <p>Pandas, NumPy, Visualization</p>
+            <h3>Statistics</h3>
+            <p>Statistical Modeling, R, Python</p>
           </div>
         </div>
 
         <div class="highlight-card">
-          <div class="highlight-card__icon">🐍</div>
+          <div class="highlight-card__icon">🔬</div>
           <div class="highlight-card__content">
-            <h3>Python & R</h3>
-            <p>Statistical Computing, Automation</p>
-          </div>
-        </div>
-
-        <div class="highlight-card">
-          <div class="highlight-card__icon">🗄️</div>
-          <div class="highlight-card__content">
-            <h3>Database & SQL</h3>
-            <p>PostgreSQL, Data Engineering</p>
+            <h3>Representation</h3>
+            <p>Feature Learning, Embeddings</p>
           </div>
         </div>
 
         <div class="code-snippet">
           <code>
-            <span class="code-comment"># Current Focus</span><br>
-            <span class="code-keyword">import</span> deep_learning<br>
-            <span class="code-keyword">from</span> curiosity <span class="code-keyword">import</span> explore<br>
+            <span class="code-comment"># Research Focus</span><br>
+            <span class="code-keyword">import</span> torch<br>
+            <span class="code-keyword">from</span> models <span class="code-keyword">import</span> TimeSeries<br>
             <br>
-            model = explore(data=<span class="code-string">"everything"</span>)
+            forecast = TimeSeries.predict(horizon=<span class="code-string">"future"</span>)
           </code>
         </div>
       </div>
@@ -89,88 +89,117 @@ layout: default
 <!-- About Section -->
 <section id="about" class="section">
   <div class="container">
-    <p class="section__title">About</p>
-    <h2 class="section__heading">Who I Am</h2>
+    <h2 class="section__heading">About</h2>
     <div style="max-width: 700px;">
       <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 1rem;">
-        안녕하세요. 문제 해결을 좋아하는 개발자입니다.
-        새로운 기술을 배우고 적용하는 것을 즐기며,
-        깔끔하고 효율적인 코드를 작성하려고 노력합니다.
+        창원대학교 인공지능융합공학부 박사과정에 재학 중입니다.
+        시계열 예측, 표현학습, 딥러닝을 연구하고 있으며,
+        통계적 방법론과 머신러닝을 결합한 분석에 관심이 있습니다.
       </p>
       <p style="color: var(--text-secondary); line-height: 1.8;">
-        데이터 분석, 웹 개발, 그리고 다양한 도구들을 활용하여
-        실용적인 솔루션을 만들어내는 것에 관심이 있습니다.
+        산업공학 학사, 수학정보통계학 석사 과정을 거치며
+        데이터 기반 문제 해결 역량을 쌓아왔습니다.
       </p>
     </div>
   </div>
 </section>
 
-<!-- Experience Section -->
-<section id="experience" class="section section--alt">
+<!-- Education Section -->
+<section id="education" class="section section--alt">
   <div class="container">
-    <p class="section__title">Experience</p>
-    <h2 class="section__heading">Where I've Worked</h2>
+    <h2 class="section__heading">Education</h2>
     <div class="timeline">
       <div class="timeline__item">
         <p class="timeline__date">2024 - Present</p>
-        <h3 class="timeline__title">Your Role</h3>
-        <p class="timeline__company">Company Name</p>
+        <h3 class="timeline__title">Ph.D. Candidate in AI Convergence Engineering</h3>
+        <p class="timeline__company">창원대학교 인공지능융합공학부</p>
         <p class="timeline__description">
-          역할 및 주요 업무 설명을 여기에 작성하세요.
-          프로젝트, 성과, 사용 기술 등을 포함할 수 있습니다.
+          시계열 예측, 표현학습, 딥러닝 연구
         </p>
       </div>
       <div class="timeline__item">
         <p class="timeline__date">2022 - 2024</p>
-        <h3 class="timeline__title">Previous Role</h3>
-        <p class="timeline__company">Previous Company</p>
+        <h3 class="timeline__title">M.S. in Mathematical Information & Statistics</h3>
+        <p class="timeline__company">동의대학교 수학정보통계학과</p>
         <p class="timeline__description">
-          이전 경력에 대한 설명을 여기에 작성하세요.
+          통계적 방법론 및 데이터 분석 연구
         </p>
       </div>
+      <div class="timeline__item">
+        <p class="timeline__date">2016 - 2022</p>
+        <h3 class="timeline__title">B.S. in Industrial Engineering</h3>
+        <p class="timeline__company">동의대학교 생산정보기술공학과 (산업공학과)</p>
+        <p class="timeline__description">
+          생산시스템, 품질관리, 데이터 분석
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Publications Section -->
+<section id="publications" class="section">
+  <div class="container">
+    <h2 class="section__heading">Publications</h2>
+    <div class="publications">
+      <!-- 최신 3개 (항상 표시) -->
+      <div class="publication-item">
+        <p class="publication-item__title">How Will Arctic Shipping Emissions Evolve? A Spatiotemporal Topology-Aware Transformer Approach</p>
+        <p class="publication-item__authors">Y. Kim, <strong>J. Lee</strong>, H. Bae, S. Sim</p>
+        <p class="publication-item__venue">Transportation Research Part D: Transport and Environment, Vol. 151, 2026</p>
+      </div>
+      <div class="publication-item">
+        <p class="publication-item__title">Temporal Multi-Features Representation Learning-Based Clustering for Time-Series Data</p>
+        <p class="publication-item__authors"><strong>J. Lee</strong>, D. Kim, S. Sim</p>
+        <p class="publication-item__venue">IEEE Access, Vol. 12, pp. 87675-87690, 2024</p>
+      </div>
+      <div class="publication-item">
+        <p class="publication-item__title">Temporal Feature Representation Learning for Time-Series Clustering with Variational Mode Decomposition</p>
+        <p class="publication-item__authors"><strong>J. Lee</strong>, E. Park, S. Sim</p>
+        <p class="publication-item__venue">ICIC Express Letters (ICICIC 2024), Vol. 18(08), p. 875, 2024</p>
+      </div>
+      <!-- 더 보기 (논문 추가 시 아래 details 안에 추가) -->
+      <!--
+      <details class="show-more">
+        <summary>더 보기</summary>
+        <div class="publication-item">
+          <p class="publication-item__title">논문 제목</p>
+          <p class="publication-item__authors">저자</p>
+          <p class="publication-item__venue">저널, 연도</p>
+        </div>
+      </details>
+      -->
     </div>
   </div>
 </section>
 
 <!-- Skills Section -->
-<section id="skills" class="section">
+<section id="skills" class="section section--alt">
   <div class="container">
-    <p class="section__title">Skills</p>
-    <h2 class="section__heading">What I Use</h2>
-    <div class="skills">
+    <h2 class="section__heading">Skills</h2>
+    <div class="skills skills--three">
       <div class="skills__category">
-        <h3 class="skills__title">Languages</h3>
+        <h3 class="skills__title">Programming</h3>
         <div class="skills__list">
           <span class="skills__item">Python</span>
-          <span class="skills__item">JavaScript</span>
           <span class="skills__item">R</span>
           <span class="skills__item">SQL</span>
         </div>
       </div>
       <div class="skills__category">
-        <h3 class="skills__title">Frameworks & Libraries</h3>
+        <h3 class="skills__title">ML / DL</h3>
         <div class="skills__list">
-          <span class="skills__item">React</span>
-          <span class="skills__item">Node.js</span>
-          <span class="skills__item">Pandas</span>
+          <span class="skills__item">PyTorch</span>
           <span class="skills__item">TensorFlow</span>
+          <span class="skills__item">Scikit-learn</span>
         </div>
       </div>
       <div class="skills__category">
-        <h3 class="skills__title">Tools & Platforms</h3>
+        <h3 class="skills__title">Tools</h3>
         <div class="skills__list">
           <span class="skills__item">Git</span>
           <span class="skills__item">Docker</span>
-          <span class="skills__item">AWS</span>
-          <span class="skills__item">PostgreSQL</span>
-        </div>
-      </div>
-      <div class="skills__category">
-        <h3 class="skills__title">Others</h3>
-        <div class="skills__list">
-          <span class="skills__item">Data Analysis</span>
-          <span class="skills__item">Machine Learning</span>
-          <span class="skills__item">Web Development</span>
+          <span class="skills__item">Linux</span>
         </div>
       </div>
     </div>
@@ -180,57 +209,67 @@ layout: default
 <!-- Projects Section -->
 <section id="projects" class="section section--alt">
   <div class="container">
-    <p class="section__title">Projects</p>
-    <h2 class="section__heading">What I've Built</h2>
+    <h2 class="section__heading">Projects</h2>
     <div class="projects">
+      <!-- 최신 프로젝트 (항상 표시) -->
       <div class="project-card">
-        <h3 class="project-card__title">Project Name</h3>
+        <h3 class="project-card__title">TMRC</h3>
         <p class="project-card__description">
-          프로젝트에 대한 간단한 설명입니다.
-          어떤 문제를 해결했는지, 어떤 기술을 사용했는지 작성하세요.
+          Temporal Multi-features Representation Learning-Based Clustering for Time-Series Data.
+          IEEE Access 논문의 구현 코드.
         </p>
         <div class="project-card__tech">
           <span class="project-card__tag">Python</span>
-          <span class="project-card__tag">Flask</span>
-          <span class="project-card__tag">PostgreSQL</span>
+          <span class="project-card__tag">PyTorch</span>
+          <span class="project-card__tag">Time Series</span>
         </div>
         <div class="project-card__links">
-          <a href="#">GitHub →</a>
-          <a href="#">Live Demo →</a>
+          <a href="https://github.com/ijaehun/TMRC" target="_blank">GitHub →</a>
         </div>
       </div>
       <div class="project-card">
-        <h3 class="project-card__title">Another Project</h3>
+        <h3 class="project-card__title">FastAPI + Next.js Template</h3>
         <p class="project-card__description">
-          또 다른 프로젝트 설명입니다.
-          주요 기능과 성과를 간략하게 설명하세요.
+          웹 개발 시작 템플릿.
+          FastAPI 백엔드와 Next.js 프론트엔드 boilerplate.
         </p>
         <div class="project-card__tech">
-          <span class="project-card__tag">React</span>
-          <span class="project-card__tag">Node.js</span>
-          <span class="project-card__tag">MongoDB</span>
+          <span class="project-card__tag">TypeScript</span>
+          <span class="project-card__tag">FastAPI</span>
+          <span class="project-card__tag">Next.js</span>
         </div>
         <div class="project-card__links">
-          <a href="#">GitHub →</a>
+          <a href="https://github.com/ijaehun/fastapi-nextjs-template" target="_blank">GitHub →</a>
         </div>
       </div>
       <div class="project-card">
-        <h3 class="project-card__title">Data Analysis Project</h3>
+        <h3 class="project-card__title">Portfolio Website</h3>
         <p class="project-card__description">
-          데이터 분석 프로젝트 설명입니다.
-          인사이트와 결과를 요약하세요.
+          현재 보고 계신 포트폴리오 웹사이트.
+          Jekyll + Minimal Mistakes 기반.
         </p>
         <div class="project-card__tech">
-          <span class="project-card__tag">Python</span>
-          <span class="project-card__tag">Pandas</span>
-          <span class="project-card__tag">Visualization</span>
+          <span class="project-card__tag">Jekyll</span>
+          <span class="project-card__tag">SCSS</span>
+          <span class="project-card__tag">GitHub Pages</span>
         </div>
         <div class="project-card__links">
-          <a href="#">GitHub →</a>
-          <a href="#">Report →</a>
+          <a href="https://github.com/ijaehun/ijaehun.github.io" target="_blank">GitHub →</a>
+          <a href="https://ijaehun.github.io" target="_blank">Live →</a>
         </div>
       </div>
     </div>
+    <!-- 더 보기 (프로젝트 추가 시 아래 details 활성화) -->
+    <!--
+    <details class="show-more">
+      <summary>더 보기</summary>
+      <div class="projects" style="margin-top: 1.5rem;">
+        <div class="project-card">
+          프로젝트 카드 추가
+        </div>
+      </div>
+    </details>
+    -->
   </div>
 </section>
 
@@ -238,8 +277,7 @@ layout: default
 <section id="contact" class="section">
   <div class="container">
     <div class="contact">
-      <p class="section__title">Contact</p>
-      <h2 class="section__heading">Get In Touch</h2>
+      <h2 class="section__heading">Contact</h2>
       <p class="contact__text">
         프로젝트 협업, 질문, 또는 인사를 나누고 싶으시다면
         언제든지 연락해 주세요.
