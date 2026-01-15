@@ -11,7 +11,8 @@
       "Bash(bundle exec jekyll build:*)",
       "Bash(findstr:*)",
       "WebFetch(domain:github.com)",
-      "Bash(timeout /t 5 /nobreak)"
+      "Bash(timeout /t 5 /nobreak)",
+      "Bash(git commit:*)"
     ]
   }
 }
