@@ -34,8 +34,17 @@ bundle exec jekyll build
 ├── _pages/              # Static pages (404, etc.)
 ├── _sass/               # Custom SCSS styles
 ├── assets/              # Images, CSS, JS, fonts
-└── index.html           # Homepage (hero, about, skills, projects, contact)
+└── index.html           # Homepage (single page portfolio)
 ```
+
+## Page Sections (index.html)
+
+```
+Hero → About → Education → Publications → Skills → Projects → Contact
+```
+
+- **Navigation**: About, Education, Publications, Projects, Contact
+- **Publications/Projects**: "더 보기" 기능 준비됨 (details/summary, 현재 주석 처리)
 
 ## Key Files
 
