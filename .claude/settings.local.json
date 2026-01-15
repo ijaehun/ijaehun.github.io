@@ -3,7 +3,15 @@
     "allow": [
       "WebFetch(domain:www.githubstatus.com)",
       "Bash(gh repo view:*)",
-      "Bash(git fetch:*)"
+      "Bash(git fetch:*)",
+      "Bash(git add:*)",
+      "Bash(powershell -Command \"Remove-Item -Path ''C:\\\\Users\\\\lee\\\\Dropbox\\\\github\\\\ijaehun.github.io\\\\_posts'' -Recurse -Force -ErrorAction SilentlyContinue; if \\(Test-Path ''C:\\\\Users\\\\lee\\\\Dropbox\\\\github\\\\ijaehun.github.io\\\\_posts''\\) { ''Still exists'' } else { ''Deleted'' }\")",
+      "Bash(powershell -Command \"Remove-Item -Path ''C:\\\\Users\\\\lee\\\\Dropbox\\\\github\\\\ijaehun.github.io\\\\_includes\\\\nav_list_main'' -Force -ErrorAction SilentlyContinue; ''Done''\")",
+      "Bash(powershell:*)",
+      "Bash(bundle exec jekyll build:*)",
+      "Bash(findstr:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(timeout /t 5 /nobreak)"
     ]
   }
 }
