@@ -4,7 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Jekyll-based personal blog using the Minimal Mistakes theme (v4.24.0), hosted on GitHub Pages at `https://ijaehun.github.io`. The site is in Korean (ko-KR) and features custom styling, JavaScript enhancements, and Utterances comments.
+Personal portfolio website for **JaeHoon Lee** (@ijaehun), built with Jekyll and Minimal Mistakes theme (v4.24.0). Hosted on GitHub Pages at `https://ijaehun.github.io`.
+
+- **Language**: Korean (ko-KR)
+- **Purpose**: Portfolio / Personal site
+- **Theme**: Minimal Mistakes with custom styling
 
 ## Build & Development Commands
 
@@ -17,71 +21,43 @@ bundle exec jekyll serve
 
 # Production build (outputs to _site/)
 bundle exec jekyll build
-
-# Preview with file watching (uses Rake)
-rake preview
 ```
 
-## Content Structure
+## Project Structure
 
-### Creating Posts
-
-Posts go in `_posts/[Category]/YYYY-MM-DD-slug.md` with this frontmatter:
-
-```yaml
----
-title: "Post Title"
-search: false
-categories:
-  - Dev  # Options: Dev, Study, Notes, Archive
-tags:
-  - [tag1, tag2]
-toc: true
-toc_sticky: true
-date: YYYY-MM-DD
-last_modified_at: YYYY-MM-DD
----
+```
+.
+├── _config.yml          # Site configuration
+├── _data/navigation.yml # Top navigation menu
+├── _includes/           # Reusable components
+├── _layouts/            # Page layouts
+├── _pages/              # Static pages (404, etc.)
+├── _sass/               # Custom SCSS styles
+├── assets/              # Images, CSS, JS, fonts
+└── index.html           # Homepage (hero, about, skills, projects, contact)
 ```
 
-### Category Mapping
+## Key Files
 
-| Category | Directory | Purpose |
-|----------|-----------|---------|
-| Study | `_posts/Study/` | Learning records |
-| Dev | `_posts/Dev/` | Development projects |
-| Notes | `_posts/Notes/` | Memos and tips |
-| Archive | `_posts/Archive/` | Portfolio items |
+- **Homepage**: `index.html` - Single page portfolio with sections
+- **Styles**: `assets/css/main.scss` - Main stylesheet
+- **Config**: `_config.yml` - Site settings, author info, analytics
+- **Custom Head**: `_includes/head/custom.html` - Fonts, favicons
 
-## Architecture
+## Configuration
 
-### Key Customization Locations
-
-- **Custom CSS**: `assets/css/custom.css` - notice boxes, animations, code highlighting
-- **Custom JS**: `assets/js/custom.js` - hover effects, scroll animations, dark mode toggle
-- **Custom Head**: `_includes/head/custom.html` - fonts, favicons, CSS fixes
-- **Sidebar Navigation**: `_includes/nav_list_main` - category list with post counts
-- **Homepage**: `index.html` - hero section, category grid, recent posts
-
-### Theme Overrides
-
-To customize the Minimal Mistakes theme, copy files from the remote theme into local directories:
-- Layouts → `_layouts/`
-- Includes → `_includes/`
-- Sass → `_sass/minimal-mistakes/`
-
-### Configuration Files
-
-- `_config.yml` - Site settings, plugins, defaults
-- `_data/navigation.yml` - Top navigation menu items
-- `Gemfile` - Ruby dependencies
+Key settings in `_config.yml`:
+- `title`: ijaehun (shown in browser tab)
+- `name`: JaeHoon Lee (author name)
+- `masthead_title`: ijaehun (header title)
 
 ## Deployment
 
-Push to `main` branch triggers automatic GitHub Pages deployment. No manual build step required.
+Push to `main` branch triggers automatic GitHub Pages deployment.
 
 ## Technical Notes
 
-- **Ruby**: ~3.4.0 (includes compatibility gems: base64, csv, ostruct)
-- **Search**: Lunr.js full-text search
-- **Comments**: Utterances (GitHub Issues-backed)
-- **Analytics**: Google Analytics enabled
+- **Ruby**: ~3.4.0
+- **Comments**: Disabled
+- **Search**: Disabled
+- **Analytics**: Google Analytics (G-JRBPF2HM4P)
