@@ -11,15 +11,15 @@ minimal_mistakes_skin  : "default"
 
 # Site Settings
 locale                 : "ko-KR"
-title                  : "HoonyHoony"
+title                  : "ijaehun"
 title_separator        : "|"
 subtitle               : "AI/ML Developer"
-name                   : "이재훈"
+name                   : "ijaehun"
 description            : "AI/ML Developer & Data Scientist"
 url                    : "https://ijaehun.github.io"
 baseurl                :
 repository             : "ijaehun/ijaehun.github.io"
-masthead_title         : "HoonyHoony"
+masthead_title         : "ijaehun"
 breadcrumbs            : false
 words_per_minute       : 200
 
@@ -39,7 +39,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "이재훈"
+  name             : "ijaehun"
   avatar           : "/assets/images/SDlogo.png"
   bio              : "Developer & Problem Solver"
   location         : "Republic of Korea"
