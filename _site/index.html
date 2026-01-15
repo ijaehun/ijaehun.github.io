@@ -85,6 +85,10 @@
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
 
+  
+    <script src="/assets/css/custom.css"></script>
+  
+
 
     <!-- start custom head snippets -->
 
@@ -97,6 +101,60 @@
 <link rel="mask-icon" href="/assets/logo.ico/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+/* 폰트 적용 */
+body {
+  font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+code, pre {
+  font-family: 'JetBrains Mono', 'Monaco', 'Menlo', monospace;
+}
+
+/* 추가 성능 최적화 */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+<style>
+/* 네비게이션 겹침 긴급 수정 */
+.masthead {
+  position: relative !important;
+  z-index: 999 !important;
+  clear: both !important;
+}
+
+.greedy-nav .visible-links {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1rem !important;
+}
+
+.initial-content {
+  clear: both !important;
+  margin-top: 0 !important;
+}
+
+.search-content {
+  z-index: 9999 !important;
+}
+</style>
+
+
+</style>
+
 
 <!-- end custom head snippets -->
 
@@ -115,7 +173,7 @@
 
 
 
-  <body class="layout--home wide">
+  <body class="layout--default">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -140,11 +198,13 @@
           <span class="site-subtitle">hello</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/index.html">home</a>
+              <a href="/">Home</a>
             </li><li class="masthead__menu-item">
-              <a href="/about/">about</a>
+              <a href="/categories/">Categories</a>
             </li><li class="masthead__menu-item">
-              <a href="/categories/">posts</a>
+              <a href="/year-archive/">Archive</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -164,793 +224,315 @@
 
 
     <div class="initial-content">
-      
-
-
-
-<div id="main" role="main">
-  
-  <div class="sidebar sticky">
-  
-
-
-<div itemscope itemtype="https://schema.org/Person" class="h-card">
-
-  
-    <div class="author__avatar">
-      <a href="http://localhost:4000/">
-        <img src="/assets/images/SDlogo.png" alt="ijaehun" itemprop="image" class="u-photo">
-      </a>
+      <div class="initial-content">
+  <!-- Hero Section -->
+  <div class="page__hero--overlay" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center; padding: 60px 20px;">
+    <div class="wrapper">
+      <h1 style="font-size: 2.5em; margin-bottom: 0.5em; font-weight: 300;">개인 학습 저장소</h1>
+      <p style="font-size: 1.2em; opacity: 0.9; margin-bottom: 0;">생각날 때마다 기록하는 공간</p>
     </div>
-  
+  </div>
 
-  <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">ijaehun</a>
-    </h3>
-    
-      <div class="author__bio p-note" itemprop="description">
-        <p>배고파</p>
+  <!-- Quick Categories -->
+  <div style="background: #f8f9fa; padding: 40px 20px;">
+    <div class="wrapper">
+      <h2 style="text-align: center; margin-bottom: 30px; color: #2c3e50;">카테고리</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 800px; margin: 0 auto;">
+        
+        <a href="/categories/study/" style="text-decoration: none;">
+          <div style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); text-align: center; transition: transform 0.2s; border: 1px solid #e9ecef;">
+            <div style="font-size: 2.5em; margin-bottom: 10px;">📚</div>
+            <h3 style="color: #2c3e50; margin-bottom: 5px;">Study</h3>
+            <p style="color: #6c757d; margin: 0; font-size: 0.9em;">학습 기록 & 정리</p>
+            <div style="margin-top: 10px; color: #007bff; font-size: 0.8em;">
+              
+              1개 포스트
+            </div>
+          </div>
+        </a>
 
+        <a href="/categories/dev/" style="text-decoration: none;">
+          <div style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); text-align: center; transition: transform 0.2s; border: 1px solid #e9ecef;">
+            <div style="font-size: 2.5em; margin-bottom: 10px;">💻</div>
+            <h3 style="color: #2c3e50; margin-bottom: 5px;">Dev</h3>
+            <p style="color: #6c757d; margin: 0; font-size: 0.9em;">개발 & 프로젝트</p>
+            <div style="margin-top: 10px; color: #007bff; font-size: 0.8em;">
+              
+              4개 포스트
+            </div>
+          </div>
+        </a>
+
+        <a href="/categories/notes/" style="text-decoration: none;">
+          <div style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); text-align: center; transition: transform 0.2s; border: 1px solid #e9ecef;">
+            <div style="font-size: 2.5em; margin-bottom: 10px;">📝</div>
+            <h3 style="color: #2c3e50; margin-bottom: 5px;">Notes</h3>
+            <p style="color: #6c757d; margin: 0; font-size: 0.9em;">메모 & 아이디어</p>
+            <div style="margin-top: 10px; color: #007bff; font-size: 0.8em;">
+              
+              10개 포스트
+            </div>
+          </div>
+        </a>
+
+        <a href="/categories/archive/" style="text-decoration: none;">
+          <div style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); text-align: center; transition: transform 0.2s; border: 1px solid #e9ecef;">
+            <div style="font-size: 2.5em; margin-bottom: 10px;">🔗</div>
+            <h3 style="color: #2c3e50; margin-bottom: 5px;">Archive</h3>
+            <p style="color: #6c757d; margin: 0; font-size: 0.9em;">포트폴리오 & 완성작</p>
+            <div style="margin-top: 10px; color: #007bff; font-size: 0.8em;">
+              
+              0개 포스트
+            </div>
+          </div>
+        </a>
       </div>
-    
+    </div>
   </div>
 
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">팔로우</button>
-    <ul class="author__urls social-icons">
-      
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Republic of Korea</span>
-        </li>
-      
-
-      
+  <!-- Recent Posts -->
+  <div style="padding: 40px 20px;">
+    <div class="wrapper">
+      <h2 style="text-align: center; margin-bottom: 30px; color: #2c3e50;">최근 포스트</h2>
+      <div class="entries-list" style="max-width: 800px; margin: 0 auto;">
         
-          
         
-          
+          <article class="archive-item" style="padding: 20px; margin-bottom: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #007bff;">
+            <div>
+              <span style="display: block; margin-bottom: 5px;">
+                <a href="/notes/thinking2/" style="color: #2c3e50; text-decoration: none; font-weight: 500; font-size: 1.1em;">thinking2</a>
+              </span>
+              <small style="color: #6c757d; font-size: 0.9em;">
+                <i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>2022.03.24
+                
+                  <span style="margin-left: 10px; background: #e9ecef; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">Notes</span>
+                
+              </small>
+            </div>
+          </article>
         
-          
+          <article class="archive-item" style="padding: 20px; margin-bottom: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #007bff;">
+            <div>
+              <span style="display: block; margin-bottom: 5px;">
+                <a href="/notes/thinking/" style="color: #2c3e50; text-decoration: none; font-weight: 500; font-size: 1.1em;">thinking</a>
+              </span>
+              <small style="color: #6c757d; font-size: 0.9em;">
+                <i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>2022.03.23
+                
+                  <span style="margin-left: 10px; background: #e9ecef; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">Notes</span>
+                
+              </small>
+            </div>
+          </article>
         
-          
+          <article class="archive-item" style="padding: 20px; margin-bottom: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #007bff;">
+            <div>
+              <span style="display: block; margin-bottom: 5px;">
+                <a href="/notes/explaiep1/" style="color: #2c3e50; text-decoration: none; font-weight: 500; font-size: 1.1em;">explain EP.1 집중력의 비결</a>
+              </span>
+              <small style="color: #6c757d; font-size: 0.9em;">
+                <i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>2022.01.22
+                
+                  <span style="margin-left: 10px; background: #e9ecef; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">Notes</span>
+                
+              </small>
+            </div>
+          </article>
         
-          
-            <li><a href="https://github.com/ijaehun" rel="nofollow noopener noreferrer me"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
-          
+          <article class="archive-item" style="padding: 20px; margin-bottom: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #007bff;">
+            <div>
+              <span style="display: block; margin-bottom: 5px;">
+                <a href="/dev/PostgreSQL/" style="color: #2c3e50; text-decoration: none; font-weight: 500; font-size: 1.1em;">PostgreSQL</a>
+              </span>
+              <small style="color: #6c757d; font-size: 0.9em;">
+                <i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>2022.01.13
+                
+                  <span style="margin-left: 10px; background: #e9ecef; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">Dev</span>
+                
+              </small>
+            </div>
+          </article>
         
-          
+          <article class="archive-item" style="padding: 20px; margin-bottom: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #007bff;">
+            <div>
+              <span style="display: block; margin-bottom: 5px;">
+                <a href="/notes/memourl/" style="color: #2c3e50; text-decoration: none; font-weight: 500; font-size: 1.1em;">memo URL</a>
+              </span>
+              <small style="color: #6c757d; font-size: 0.9em;">
+                <i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>2022.01.11
+                
+                  <span style="margin-left: 10px; background: #e9ecef; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">Notes</span>
+                
+              </small>
+            </div>
+          </article>
         
+          <article class="archive-item" style="padding: 20px; margin-bottom: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #007bff;">
+            <div>
+              <span style="display: block; margin-bottom: 5px;">
+                <a href="/notes/qgis/" style="color: #2c3e50; text-decoration: none; font-weight: 500; font-size: 1.1em;">qgis</a>
+              </span>
+              <small style="color: #6c757d; font-size: 0.9em;">
+                <i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>2021.12.27
+                
+                  <span style="margin-left: 10px; background: #e9ecef; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">Notes</span>
+                
+              </small>
+            </div>
+          </article>
+        
+          <article class="archive-item" style="padding: 20px; margin-bottom: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #007bff;">
+            <div>
+              <span style="display: block; margin-bottom: 5px;">
+                <a href="/notes/Rdata/" style="color: #2c3e50; text-decoration: none; font-weight: 500; font-size: 1.1em;">R data</a>
+              </span>
+              <small style="color: #6c757d; font-size: 0.9em;">
+                <i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>2021.12.15
+                
+                  <span style="margin-left: 10px; background: #e9ecef; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">Notes</span>
+                
+              </small>
+            </div>
+          </article>
+        
+          <article class="archive-item" style="padding: 20px; margin-bottom: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #007bff;">
+            <div>
+              <span style="display: block; margin-bottom: 5px;">
+                <a href="/notes/markdown/" style="color: #2c3e50; text-decoration: none; font-weight: 500; font-size: 1.1em;">markdown 문법 정리</a>
+              </span>
+              <small style="color: #6c757d; font-size: 0.9em;">
+                <i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>2021.12.13
+                
+                  <span style="margin-left: 10px; background: #e9ecef; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">Notes</span>
+                
+              </small>
+            </div>
+          </article>
+        
+          <article class="archive-item" style="padding: 20px; margin-bottom: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #007bff;">
+            <div>
+              <span style="display: block; margin-bottom: 5px;">
+                <a href="/notes/Rbasic2/" style="color: #2c3e50; text-decoration: none; font-weight: 500; font-size: 1.1em;">R basic2</a>
+              </span>
+              <small style="color: #6c757d; font-size: 0.9em;">
+                <i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>2021.12.13
+                
+                  <span style="margin-left: 10px; background: #e9ecef; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">Notes</span>
+                
+              </small>
+            </div>
+          </article>
+        
+          <article class="archive-item" style="padding: 20px; margin-bottom: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #007bff;">
+            <div>
+              <span style="display: block; margin-bottom: 5px;">
+                <a href="/notes/Rbasic1/" style="color: #2c3e50; text-decoration: none; font-weight: 500; font-size: 1.1em;">R basic1</a>
+              </span>
+              <small style="color: #6c757d; font-size: 0.9em;">
+                <i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>2021.12.13
+                
+                  <span style="margin-left: 10px; background: #e9ecef; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">Notes</span>
+                
+              </small>
+            </div>
+          </article>
+        
+          <article class="archive-item" style="padding: 20px; margin-bottom: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #007bff;">
+            <div>
+              <span style="display: block; margin-bottom: 5px;">
+                <a href="/dev/pythonprogramming/" style="color: #2c3e50; text-decoration: none; font-weight: 500; font-size: 1.1em;">Python Programming</a>
+              </span>
+              <small style="color: #6c757d; font-size: 0.9em;">
+                <i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>2021.12.13
+                
+                  <span style="margin-left: 10px; background: #e9ecef; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">Dev</span>
+                
+              </small>
+            </div>
+          </article>
+        
+          <article class="archive-item" style="padding: 20px; margin-bottom: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #007bff;">
+            <div>
+              <span style="display: block; margin-bottom: 5px;">
+                <a href="/dev/git-memo/" style="color: #2c3e50; text-decoration: none; font-weight: 500; font-size: 1.1em;">git etc</a>
+              </span>
+              <small style="color: #6c757d; font-size: 0.9em;">
+                <i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>2021.12.06
+                
+                  <span style="margin-left: 10px; background: #e9ecef; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">Dev</span>
+                
+              </small>
+            </div>
+          </article>
+        
+          <article class="archive-item" style="padding: 20px; margin-bottom: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #007bff;">
+            <div>
+              <span style="display: block; margin-bottom: 5px;">
+                <a href="/notes/general-memo/" style="color: #2c3e50; text-decoration: none; font-weight: 500; font-size: 1.1em;">memo etc</a>
+              </span>
+              <small style="color: #6c757d; font-size: 0.9em;">
+                <i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>2021.11.21
+                
+                  <span style="margin-left: 10px; background: #e9ecef; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">Notes</span>
+                
+              </small>
+            </div>
+          </article>
+        
+          <article class="archive-item" style="padding: 20px; margin-bottom: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #007bff;">
+            <div>
+              <span style="display: block; margin-bottom: 5px;">
+                <a href="/dev/pythontest1/" style="color: #2c3e50; text-decoration: none; font-weight: 500; font-size: 1.1em;">Python version 관리</a>
+              </span>
+              <small style="color: #6c757d; font-size: 0.9em;">
+                <i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>2021.11.20
+                
+                  <span style="margin-left: 10px; background: #e9ecef; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">Dev</span>
+                
+              </small>
+            </div>
+          </article>
+        
+          <article class="archive-item" style="padding: 20px; margin-bottom: 15px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #007bff;">
+            <div>
+              <span style="display: block; margin-bottom: 5px;">
+                <a href="/study/ms1/" style="color: #2c3e50; text-decoration: none; font-weight: 500; font-size: 1.1em;">수리통계공부</a>
+              </span>
+              <small style="color: #6c757d; font-size: 0.9em;">
+                <i class="fas fa-calendar-alt" style="margin-right: 5px;"></i>2021.11.19
+                
+                  <span style="margin-left: 10px; background: #e9ecef; padding: 2px 8px; border-radius: 12px; font-size: 0.8em;">Study</span>
+                
+              </small>
+            </div>
+          </article>
+        
+      </div>
       
-
-      
-
-      
-        <li>
-          <a href="mailto:dynamic97312@naver.com" rel="me" class="u-email">
-            <meta itemprop="email" content="dynamic97312@naver.com" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">이메일</span>
-          </a>
-        </li>
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
+      <div style="text-align: center; margin-top: 30px;">
+        <a href="/year-archive/" style="background: #007bff; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 500;">전체 포스트 보기</a>
+      </div>
+    </div>
   </div>
 </div>
-  
 
-  
-    <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
+<style>
+/* 호버 효과 */
+.initial-content a div:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15) !important;
+}
 
-
-
-<nav class="nav__list">
-    <input id="ac-toc" name="accordion-toc" type="checkbox"/>
-    <label for="ac-toc">토글 메뉴</label>
-    <ul class="nav__items" id="category_tag_menu">
-        <li>
-            📂
-            <span style="font-family:'Cafe24SsurroundAir';">전체 글 수</style>
-            <span style="font-family:''Cafe24SsurroundAir';">28</style>
-            <span style="font-family:'Cafe24SsurroundAir';">개</style>
-        </li>
-
-        <li>
-            <span class="nav__sub-title">AI</span>
-
-            <ul>
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/DL" class="">Deep Learning(4)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/ML" class="">machine Learning(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-        </li>
-
-        <li>
-            <span class="nav__sub-title">Data Analysis</span>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/Randpython" class="">R&python(5)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/visualization" class="">visualization(1)</a>
-                        </li>
-                    
-                
-                    
-                
-            </ul>
-
-             <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/kaggle" class="">kaggle(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-        </li>
-
-        <li>
-            <span class="nav__sub-title">statistics</span>
-
-            <ul>
-                
-                    
-                        <li>
-                            <a href="/categories/ms" class="">mathematical statistics(2)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/analysis" class="">analysis(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/pt" class="">probability theory(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-        </li>
-
-        <li>
-            <span class="nav__sub-title">mathmatics</span>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/la" class="">linear algebra(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/calculus" class="">calculus(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-            
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/dm" class="">discrete math(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-        </li>
-
-        <li>
-            <span class="nav__sub-title">etc</span>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/memo" class="">memo(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
-    </ul>
-</nav>
-  
-
-  </div>
-
-
-
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title"></h1>
-    
-    
-
-<h3 class="archive__subtitle">최근 포스트</h3>
-
-
-
-
-  
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 2023.03.24</p>
-      
-      
-        <a href="/dl/DLStudy1/" rel="permalink">Deep Learning from Scratch_1
-</a>
-      
-    </h2>
-    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#dl" class="page__taxonomy-item-category" rel="tag">DL</a>
-                    
-                    
-                    <a href="/tags/#code-reviews" class="page__taxonomy-item-tag" rel="tag">code reviews</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#deep-learning-from-scratch" class="page__taxonomy-item-tag" rel="tag">Deep Learning from Scratch</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#deep-learning" class="page__taxonomy-item-tag" rel="tag">Deep Learning</a>
-                
-            </span>
-        </span>
-  </article>
-</div>
-
-  
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 2023.03.24</p>
-      
-      
-        <a href="/dl/DLStudy0/" rel="permalink">Deep Learning from Scratch_0
-</a>
-      
-    </h2>
-    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#dl" class="page__taxonomy-item-category" rel="tag">DL</a>
-                    
-                    
-                    <a href="/tags/#code-reviews" class="page__taxonomy-item-tag" rel="tag">code reviews</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#deep-learning-from-scratch" class="page__taxonomy-item-tag" rel="tag">Deep Learning from Scratch</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#deep-learning" class="page__taxonomy-item-tag" rel="tag">Deep Learning</a>
-                
-            </span>
-        </span>
-  </article>
-</div>
-
-  
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 2022.03.24</p>
-      
-      
-        <a href="/memo/thinking2/" rel="permalink">thinking2
-</a>
-      
-    </h2>
-    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
-                    
-                    
-                    <a href="/tags/#report" class="page__taxonomy-item-tag" rel="tag">report</a>
-                
-            </span>
-        </span>
-  </article>
-</div>
-
-  
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 2022.03.23</p>
-      
-      
-        <a href="/memo/thinking/" rel="permalink">thinking
-</a>
-      
-    </h2>
-    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
-                    
-                    
-                    <a href="/tags/#report" class="page__taxonomy-item-tag" rel="tag">report</a>
-                
-            </span>
-        </span>
-  </article>
-</div>
-
-  
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 2022.01.22</p>
-      
-      
-        <a href="/memo/explaiep1/" rel="permalink">explain EP.1 집중력의 비결
-</a>
-      
-    </h2>
-    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
-                    
-                    
-                    <a href="/tags/#report" class="page__taxonomy-item-tag" rel="tag">report</a>
-                
-            </span>
-        </span>
-  </article>
-</div>
-
-
-
-<nav class="pagination">
-  
-  <ul>
-    
-    
-    <li><a href="#" class="disabled"><span aria-hidden="true">이전</span></a></li>
-    
-
-    
-    
-      <li><a href="#" class="disabled current">1</a></li>
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-        
-        
-        
-        <li><a href="/page2/">2</a></li>
-      
-    
-      
-        
-        
-        
-        <li><a href="/page3/">3</a></li>
-      
-    
-
-    
-    
-      <li><a href="#" class="disabled">&hellip;</a></li>
-    
-
-    
-      <li><a href="/page6/">6</a></li>
-    
-
-    
-    
-      <li><a href="/page2/">다음</a></li>
-    
-  </ul>
-</nav>
-
-
-  </div>
-</div>
+/* 반응형 */
+@media (max-width: 768px) {
+  .page__hero--overlay h1 {
+    font-size: 2em !important;
+  }
+  .page__hero--overlay p {
+    font-size: 1em !important;
+  }
+}
+</style>
     </div>
 
     
@@ -1003,7 +585,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2024 ijaehun. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2025 ijaehun. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
@@ -1021,6 +603,10 @@
 
 
 
+
+  
+    <script src="/assets/js/custom.js"></script>
+  
 
 
 

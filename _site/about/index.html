@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>about me - ijaehun’s blog</title>
+<!-- begin _includes/seo.html --><title>About - ijaehun’s blog</title>
 <meta name="description" content="more and more">
 
 
@@ -20,7 +20,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="ijaehun's blog">
-<meta property="og:title" content="about me">
+<meta property="og:title" content="About">
 <meta property="og:url" content="http://localhost:4000/about/">
 
 
@@ -83,6 +83,10 @@
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
 
+  
+    <script src="/assets/css/custom.css"></script>
+  
+
 
     <!-- start custom head snippets -->
 
@@ -95,6 +99,60 @@
 <link rel="mask-icon" href="/assets/logo.ico/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+/* 폰트 적용 */
+body {
+  font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+code, pre {
+  font-family: 'JetBrains Mono', 'Monaco', 'Menlo', monospace;
+}
+
+/* 추가 성능 최적화 */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+<style>
+/* 네비게이션 겹침 긴급 수정 */
+.masthead {
+  position: relative !important;
+  z-index: 999 !important;
+  clear: both !important;
+}
+
+.greedy-nav .visible-links {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1rem !important;
+}
+
+.initial-content {
+  clear: both !important;
+  margin-top: 0 !important;
+}
+
+.search-content {
+  z-index: 9999 !important;
+}
+</style>
+
+
+</style>
+
 
 <!-- end custom head snippets -->
 
@@ -138,11 +196,13 @@
           <span class="site-subtitle">hello</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/index.html">home</a>
+              <a href="/">Home</a>
             </li><li class="masthead__menu-item">
-              <a href="/about/">about</a>
+              <a href="/categories/">Categories</a>
             </li><li class="masthead__menu-item">
-              <a href="/categories/">posts</a>
+              <a href="/year-archive/">Archive</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -184,7 +244,7 @@
         <span class="sep">/</span>
       
       
-        <li class="current">about me</li>
+        <li class="current">About</li>
       
     
   </ol>
@@ -316,434 +376,13 @@
   
 
   
-    <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
-
-
-
-<nav class="nav__list">
-    <input id="ac-toc" name="accordion-toc" type="checkbox"/>
-    <label for="ac-toc">토글 메뉴</label>
-    <ul class="nav__items" id="category_tag_menu">
-        <li>
-            📂
-            <span style="font-family:'Cafe24SsurroundAir';">전체 글 수</style>
-            <span style="font-family:''Cafe24SsurroundAir';">28</style>
-            <span style="font-family:'Cafe24SsurroundAir';">개</style>
-        </li>
-
-        <li>
-            <span class="nav__sub-title">AI</span>
-
-            <ul>
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/DL" class="">Deep Learning(4)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/ML" class="">machine Learning(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-        </li>
-
-        <li>
-            <span class="nav__sub-title">Data Analysis</span>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/Randpython" class="">R&python(5)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/visualization" class="">visualization(1)</a>
-                        </li>
-                    
-                
-                    
-                
-            </ul>
-
-             <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/kaggle" class="">kaggle(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-        </li>
-
-        <li>
-            <span class="nav__sub-title">statistics</span>
-
-            <ul>
-                
-                    
-                        <li>
-                            <a href="/categories/ms" class="">mathematical statistics(2)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/analysis" class="">analysis(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/pt" class="">probability theory(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-        </li>
-
-        <li>
-            <span class="nav__sub-title">mathmatics</span>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/la" class="">linear algebra(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/calculus" class="">calculus(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-            
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/dm" class="">discrete math(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-        </li>
-
-        <li>
-            <span class="nav__sub-title">etc</span>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/memo" class="">memo(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
-    </ul>
-</nav>
-  
 
   </div>
 
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="about me">
+    <meta itemprop="headline" content="About">
     
     
     
@@ -752,7 +391,7 @@
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/about/" class="u-url" itemprop="url">about me
+            <a href="http://localhost:4000/about/" class="u-url" itemprop="url">About
 </a>
           </h1>
           
@@ -761,21 +400,27 @@
 
       <section class="page__content e-content" itemprop="text">
         
-          <aside class="sidebar__right sticky">
-            <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> about me</h4></header>
-              <ul class="toc__menu"><li><a href="#공부하는중입니다">공부하는중입니다.</a><ul><li><a href="#실험">실험</a></li></ul></li></ul>
+        <h2 id="-안녕하세요">👋 안녕하세요!</h2>
 
-            </nav>
-          </aside>
-        
-        <h2 id="공부하는중입니다">공부하는중입니다.</h2>
-<p>이것 저것 올려용</p>
+<p>개인 학습을 기록하고 정리하는 공간입니다.</p>
 
-<h3 id="실험">실험</h3>
+<h3 id="-이-블로그의-목적">🎯 이 블로그의 목적</h3>
+<ul>
+  <li><strong>개인 학습 기록</strong>: 공부한 내용들을 정리</li>
+  <li><strong>프로젝트 아카이브</strong>: 완성한 작업들을 보관</li>
+  <li><strong>메모 저장소</strong>: 생각나는 아이디어들을 기록</li>
+</ul>
 
-<p>이것저것 올립니당</p>
+<h3 id="-주요-관심사">📚 주요 관심사</h3>
+<ul>
+  <li>데이터 사이언스 &amp; AI</li>
+  <li>웹 개발 &amp; 프로그래밍</li>
+  <li>도구 사용법 &amp; 팁들</li>
+</ul>
 
+<hr />
+
+<p><em>“생각날 때마다 기록하고, 나중에 찾아보기”</em></p>
 
         
       </section>
@@ -859,7 +504,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2024 ijaehun. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2025 ijaehun. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
@@ -877,6 +522,10 @@
 
 
 
+
+  
+    <script src="/assets/js/custom.js"></script>
+  
 
 
 
