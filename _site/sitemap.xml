@@ -4,39 +4,7 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://localhost:4000/dl/DLStudy1/</loc>
-        
-        <lastmod>2023-03-24T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/dl/DLStudy0/</loc>
-        
-        <lastmod>2023-03-24T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/memo/thinking2/</loc>
+        <loc>http://localhost:4000/notes/thinking2/</loc>
         
         <lastmod>2022-03-24T00:00:00+09:00</lastmod>
         
@@ -52,7 +20,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/memo/thinking/</loc>
+        <loc>http://localhost:4000/notes/thinking/</loc>
         
         <lastmod>2022-03-23T00:00:00+09:00</lastmod>
         
@@ -68,7 +36,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/memo/explaiep1/</loc>
+        <loc>http://localhost:4000/notes/explaiep1/</loc>
         
         <lastmod>2022-01-22T00:00:00+09:00</lastmod>
         
@@ -84,7 +52,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/memo/PostgreSQL/</loc>
+        <loc>http://localhost:4000/dev/PostgreSQL/</loc>
         
         <lastmod>2022-01-13T00:00:00+09:00</lastmod>
         
@@ -100,7 +68,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/memo/memourl/</loc>
+        <loc>http://localhost:4000/notes/memourl/</loc>
         
         <lastmod>2022-01-11T00:00:00+09:00</lastmod>
         
@@ -116,7 +84,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/memo/qgis/</loc>
+        <loc>http://localhost:4000/notes/qgis/</loc>
         
         <lastmod>2021-12-27T00:00:00+09:00</lastmod>
         
@@ -132,7 +100,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/randpython/Rdata/</loc>
+        <loc>http://localhost:4000/notes/Rdata/</loc>
         
         <lastmod>2021-12-15T00:00:00+09:00</lastmod>
         
@@ -148,7 +116,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/memo/markdown/</loc>
+        <loc>http://localhost:4000/notes/markdown/</loc>
         
         <lastmod>2021-12-13T00:00:00+09:00</lastmod>
         
@@ -164,7 +132,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/randpython/pythonprogramming/</loc>
+        <loc>http://localhost:4000/notes/Rbasic2/</loc>
         
         <lastmod>2021-12-13T00:00:00+09:00</lastmod>
         
@@ -180,7 +148,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/randpython/Rbasic2/</loc>
+        <loc>http://localhost:4000/notes/Rbasic1/</loc>
         
         <lastmod>2021-12-13T00:00:00+09:00</lastmod>
         
@@ -196,7 +164,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/randpython/Rbasic1/</loc>
+        <loc>http://localhost:4000/dev/pythonprogramming/</loc>
         
         <lastmod>2021-12-13T00:00:00+09:00</lastmod>
         
@@ -212,7 +180,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/memo/memo2-copy/</loc>
+        <loc>http://localhost:4000/dev/git-memo/</loc>
         
         <lastmod>2021-12-06T00:00:00+09:00</lastmod>
         
@@ -228,7 +196,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/memo/memotest1/</loc>
+        <loc>http://localhost:4000/notes/general-memo/</loc>
         
         <lastmod>2021-11-21T00:00:00+09:00</lastmod>
         
@@ -244,7 +212,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/visualization/visualizationtest1/</loc>
+        <loc>http://localhost:4000/dev/pythontest1/</loc>
         
         <lastmod>2021-11-20T00:00:00+09:00</lastmod>
         
@@ -260,183 +228,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/pt/pttest1/</loc>
-        
-        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/ms/mstest/</loc>
-        
-        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/la/latest1/</loc>
-        
-        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/kaggle/kaggletest1/</loc>
-        
-        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/dm/dmtest2/</loc>
-        
-        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/calculus/calculustest1/</loc>
-        
-        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/analysis/analysistest1/</loc>
-        
-        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/randpython/pythontest1/</loc>
-        
-        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/ml/MLtest/</loc>
-        
-        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/dl/DLtest2/</loc>
-        
-        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/dl/DLtest/</loc>
-        
-        <lastmod>2021-11-20T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/ms/ms1/</loc>
+        <loc>http://localhost:4000/study/ms1/</loc>
         
         <lastmod>2021-11-19T00:00:00+09:00</lastmod>
         

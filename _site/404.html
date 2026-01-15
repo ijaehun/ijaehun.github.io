@@ -83,6 +83,10 @@
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
 
+  
+    <script src="/assets/css/custom.css"></script>
+  
+
 
     <!-- start custom head snippets -->
 
@@ -95,6 +99,60 @@
 <link rel="mask-icon" href="/assets/logo.ico/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+/* 폰트 적용 */
+body {
+  font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+code, pre {
+  font-family: 'JetBrains Mono', 'Monaco', 'Menlo', monospace;
+}
+
+/* 추가 성능 최적화 */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+<style>
+/* 네비게이션 겹침 긴급 수정 */
+.masthead {
+  position: relative !important;
+  z-index: 999 !important;
+  clear: both !important;
+}
+
+.greedy-nav .visible-links {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1rem !important;
+}
+
+.initial-content {
+  clear: both !important;
+  margin-top: 0 !important;
+}
+
+.search-content {
+  z-index: 9999 !important;
+}
+</style>
+
+
+</style>
+
 
 <!-- end custom head snippets -->
 
@@ -138,11 +196,13 @@
           <span class="site-subtitle">hello</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/index.html">home</a>
+              <a href="/">Home</a>
             </li><li class="masthead__menu-item">
-              <a href="/about/">about</a>
+              <a href="/categories/">Categories</a>
             </li><li class="masthead__menu-item">
-              <a href="/categories/">posts</a>
+              <a href="/year-archive/">Archive</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -424,7 +484,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2024 ijaehun. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2025 ijaehun. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
@@ -442,6 +502,10 @@
 
 
 
+
+  
+    <script src="/assets/js/custom.js"></script>
+  
 
 
 

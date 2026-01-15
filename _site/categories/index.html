@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Posts by Category - ijaehun’s blog</title>
+<!-- begin _includes/seo.html --><title>Categories - ijaehun’s blog</title>
 <meta name="description" content="more and more">
 
 
@@ -20,7 +20,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="ijaehun's blog">
-<meta property="og:title" content="Posts by Category">
+<meta property="og:title" content="Categories">
 <meta property="og:url" content="http://localhost:4000/categories/">
 
 
@@ -83,6 +83,10 @@
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
 
+  
+    <script src="/assets/css/custom.css"></script>
+  
+
 
     <!-- start custom head snippets -->
 
@@ -95,6 +99,60 @@
 <link rel="mask-icon" href="/assets/logo.ico/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+/* 폰트 적용 */
+body {
+  font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+code, pre {
+  font-family: 'JetBrains Mono', 'Monaco', 'Menlo', monospace;
+}
+
+/* 추가 성능 최적화 */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+<style>
+/* 네비게이션 겹침 긴급 수정 */
+.masthead {
+  position: relative !important;
+  z-index: 999 !important;
+  clear: both !important;
+}
+
+.greedy-nav .visible-links {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1rem !important;
+}
+
+.initial-content {
+  clear: both !important;
+  margin-top: 0 !important;
+}
+
+.search-content {
+  z-index: 9999 !important;
+}
+</style>
+
+
+</style>
+
 
 <!-- end custom head snippets -->
 
@@ -138,11 +196,13 @@
           <span class="site-subtitle">hello</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/index.html">home</a>
+              <a href="/">Home</a>
             </li><li class="masthead__menu-item">
-              <a href="/about/">about</a>
+              <a href="/categories/">Categories</a>
             </li><li class="masthead__menu-item">
-              <a href="/categories/">posts</a>
+              <a href="/year-archive/">Archive</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -184,7 +244,7 @@
         <span class="sep">/</span>
       
       
-        <li class="current">Posts by Category</li>
+        <li class="current">Categories</li>
       
     
   </ol>
@@ -319,276 +379,21 @@
     <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
 
 
-
 <nav class="nav__list">
     <input id="ac-toc" name="accordion-toc" type="checkbox"/>
     <label for="ac-toc">토글 메뉴</label>
     <ul class="nav__items" id="category_tag_menu">
         <li>
-            📂
-            <span style="font-family:'Cafe24SsurroundAir';">전체 글 수</style>
-            <span style="font-family:''Cafe24SsurroundAir';">28</style>
-            <span style="font-family:'Cafe24SsurroundAir';">개</style>
+            📝 전체 글 수: <strong>15개</strong>
         </li>
 
         <li>
-            <span class="nav__sub-title">AI</span>
-
-            <ul>
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/DL" class="">Deep Learning(4)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/ML" class="">machine Learning(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-        </li>
-
-        <li>
-            <span class="nav__sub-title">Data Analysis</span>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/Randpython" class="">R&python(5)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/visualization" class="">visualization(1)</a>
-                        </li>
-                    
-                
-                    
-                
-            </ul>
-
-             <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/kaggle" class="">kaggle(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-        </li>
-
-        <li>
-            <span class="nav__sub-title">statistics</span>
-
+            <span class="nav__sub-title">📚 Study</span>
             <ul>
                 
                     
                         <li>
-                            <a href="/categories/ms" class="">mathematical statistics(2)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/analysis" class="">analysis(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/pt" class="">probability theory(1)</a>
+                            <a href="/categories/study/" class="">학습 기록 (1)</a>
                         </li>
                     
                 
@@ -600,40 +405,24 @@
         </li>
 
         <li>
-            <span class="nav__sub-title">mathmatics</span>
-
+            <span class="nav__sub-title">💻 Dev</span>
             <ul>
                 
                     
                 
                     
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
                         <li>
-                            <a href="/categories/la" class="">linear algebra(1)</a>
+                            <a href="/categories/dev/" class="">개발 관련 (4)</a>
                         </li>
-                    
-                
-                    
-                
                     
                 
                     
                 
             </ul>
+        </li>
 
+        <li>
+            <span class="nav__sub-title">📝 Notes</span>
             <ul>
                 
                     
@@ -641,54 +430,17 @@
                     
                 
                     
-                
-                    
-                
-                    
-                
-                    
                         <li>
-                            <a href="/categories/calculus" class="">calculus(1)</a>
+                            <a href="/categories/notes/" class="">메모 & 팁 (10)</a>
                         </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
                     
                 
             </ul>
-            
+        </li>
+
+        <li>
+            <span class="nav__sub-title">🔗 Archive</span>
             <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/dm" class="">discrete math(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
                 
                     
                 
@@ -698,42 +450,6 @@
                 
             </ul>
         </li>
-
-        <li>
-            <span class="nav__sub-title">etc</span>
-
-            <ul>
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="/categories/memo" class="">memo(1)</a>
-                        </li>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-
     </ul>
 </nav>
   
@@ -744,7 +460,7 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title">Posts by Category</h1>
+      <h1 id="page-title" class="page__title">Categories</h1>
     
     
 
@@ -760,50 +476,14 @@
       
     
       
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
         <li>
-          <a href="#memo">
-            <strong>memo</strong> <span class="taxonomy__count">9</span>
+          <a href="#notes">
+            <strong>Notes</strong> <span class="taxonomy__count">10</span>
           </a>
         </li>
       
     
   
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
     
       
     
@@ -819,17 +499,7 @@
     
       
     
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
+  
     
       
     
@@ -845,7 +515,7 @@
     
       
     
-      
+  
     
       
     
@@ -853,9 +523,21 @@
     
       
     
+  
+    
       
     
       
+        <li>
+          <a href="#dev">
+            <strong>Dev</strong> <span class="taxonomy__count">4</span>
+          </a>
+        </li>
+      
+    
+      
+    
+  
     
       
     
@@ -871,190 +553,16 @@
     
       
     
-      
-        <li>
-          <a href="#randpython">
-            <strong>Randpython</strong> <span class="taxonomy__count">5</span>
-          </a>
-        </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  
-    
-      
-    
-      
-        <li>
-          <a href="#dl">
-            <strong>DL</strong> <span class="taxonomy__count">4</span>
-          </a>
-        </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
   
     
       
         <li>
-          <a href="#ms">
-            <strong>ms</strong> <span class="taxonomy__count">2</span>
+          <a href="#study">
+            <strong>Study</strong> <span class="taxonomy__count">1</span>
           </a>
         </li>
       
     
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  
-    
-      
-    
-      
-    
-      
-        <li>
-          <a href="#ml">
-            <strong>ML</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-    
-      
-        <li>
-          <a href="#analysis">
-            <strong>analysis</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="#calculus">
-            <strong>calculus</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="#dm">
-            <strong>dm</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="#kaggle">
-            <strong>kaggle</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="#la">
-            <strong>la</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="#pt">
-            <strong>pt</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="#visualization">
-            <strong>visualization</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
       
     
       
@@ -1069,32 +577,14 @@
     
   
     
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <section id="memo" class="taxonomy__section">
-        <h2 class="archive__subtitle">memo</h2>
+      <section id="notes" class="taxonomy__section">
+        <h2 class="archive__subtitle">Notes</h2>
         <div class="entries-list">
           
             <article class="archive-item">
               <div>
                   <span>
-                    <a href="/memo/thinking2/">thinking2</a>&nbsp
+                    <a href="/notes/thinking2/">thinking2</a>&nbsp
                   </span>
                   <small> 
                     <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.03.24
@@ -1102,7 +592,7 @@
 <!--page__taxonomy.html에서 가져 옴-->
         
         <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+            <span itemprop="keywords"><a href="/categories/#notes" class="page__taxonomy-item-category" rel="tag">Notes</a>
                     
                     
                     <a href="/tags/#report" class="page__taxonomy-item-tag" rel="tag">report</a>
@@ -1116,7 +606,7 @@
             <article class="archive-item">
               <div>
                   <span>
-                    <a href="/memo/thinking/">thinking</a>&nbsp
+                    <a href="/notes/thinking/">thinking</a>&nbsp
                   </span>
                   <small> 
                     <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.03.23
@@ -1124,7 +614,7 @@
 <!--page__taxonomy.html에서 가져 옴-->
         
         <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+            <span itemprop="keywords"><a href="/categories/#notes" class="page__taxonomy-item-category" rel="tag">Notes</a>
                     
                     
                     <a href="/tags/#report" class="page__taxonomy-item-tag" rel="tag">report</a>
@@ -1138,7 +628,7 @@
             <article class="archive-item">
               <div>
                   <span>
-                    <a href="/memo/explaiep1/">explain EP.1 집중력의 비결</a>&nbsp
+                    <a href="/notes/explaiep1/">explain EP.1 집중력의 비결</a>&nbsp
                   </span>
                   <small> 
                     <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.01.22
@@ -1146,7 +636,7 @@
 <!--page__taxonomy.html에서 가져 옴-->
         
         <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+            <span itemprop="keywords"><a href="/categories/#notes" class="page__taxonomy-item-category" rel="tag">Notes</a>
                     
                     
                     <a href="/tags/#report" class="page__taxonomy-item-tag" rel="tag">report</a>
@@ -1160,33 +650,7 @@
             <article class="archive-item">
               <div>
                   <span>
-                    <a href="/memo/PostgreSQL/">PostgreSQL</a>&nbsp
-                  </span>
-                  <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.01.13
-                    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
-                    
-                    
-                    <a href="/tags/#db" class="page__taxonomy-item-tag" rel="tag">DB</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#postgresql" class="page__taxonomy-item-tag" rel="tag">PostgreSQL</a>
-                
-            </span>
-        </span>
-                  </small>
-              </div>
-            </article>
-          
-            <article class="archive-item">
-              <div>
-                  <span>
-                    <a href="/memo/memourl/">memo URL</a>&nbsp
+                    <a href="/notes/memourl/">memo URL</a>&nbsp
                   </span>
                   <small> 
                     <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.01.11
@@ -1194,7 +658,7 @@
 <!--page__taxonomy.html에서 가져 옴-->
         
         <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+            <span itemprop="keywords"><a href="/categories/#notes" class="page__taxonomy-item-category" rel="tag">Notes</a>
                     
                     
                     <a href="/tags/#etc" class="page__taxonomy-item-tag" rel="tag">etc</a><span class="sep"> </span>
@@ -1212,7 +676,7 @@
             <article class="archive-item">
               <div>
                   <span>
-                    <a href="/memo/qgis/">qgis</a>&nbsp
+                    <a href="/notes/qgis/">qgis</a>&nbsp
                   </span>
                   <small> 
                     <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.12.27
@@ -1220,7 +684,7 @@
 <!--page__taxonomy.html에서 가져 옴-->
         
         <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+            <span itemprop="keywords"><a href="/categories/#notes" class="page__taxonomy-item-category" rel="tag">Notes</a>
                     
                     
                     <a href="/tags/#qgis" class="page__taxonomy-item-tag" rel="tag">qgis</a>
@@ -1234,7 +698,29 @@
             <article class="archive-item">
               <div>
                   <span>
-                    <a href="/memo/markdown/">markdown 문법 정리</a>&nbsp
+                    <a href="/notes/Rdata/">R data</a>&nbsp
+                  </span>
+                  <small> 
+                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.12.15
+                    <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#notes" class="page__taxonomy-item-category" rel="tag">Notes</a>
+                    
+                    
+                    <a href="/tags/#r" class="page__taxonomy-item-tag" rel="tag">R</a>
+                
+            </span>
+        </span>
+                  </small>
+              </div>
+            </article>
+          
+            <article class="archive-item">
+              <div>
+                  <span>
+                    <a href="/notes/markdown/">markdown 문법 정리</a>&nbsp
                   </span>
                   <small> 
                     <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.12.13
@@ -1242,7 +728,7 @@
 <!--page__taxonomy.html에서 가져 옴-->
         
         <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+            <span itemprop="keywords"><a href="/categories/#notes" class="page__taxonomy-item-category" rel="tag">Notes</a>
                     
                     
                     <a href="/tags/#markdown" class="page__taxonomy-item-tag" rel="tag">markdown</a>
@@ -1256,18 +742,18 @@
             <article class="archive-item">
               <div>
                   <span>
-                    <a href="/memo/memo2-copy/">git etc</a>&nbsp
+                    <a href="/notes/Rbasic2/">R basic2</a>&nbsp
                   </span>
                   <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.12.06
+                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.12.13
                     <!--Archive page 용-: (post -> page)-->
 <!--page__taxonomy.html에서 가져 옴-->
         
         <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+            <span itemprop="keywords"><a href="/categories/#notes" class="page__taxonomy-item-category" rel="tag">Notes</a>
                     
                     
-                    <a href="/tags/#git" class="page__taxonomy-item-tag" rel="tag">git</a>
+                    <a href="/tags/#r" class="page__taxonomy-item-tag" rel="tag">R</a>
                 
             </span>
         </span>
@@ -1278,7 +764,29 @@
             <article class="archive-item">
               <div>
                   <span>
-                    <a href="/memo/memotest1/">memo etc</a>&nbsp
+                    <a href="/notes/Rbasic1/">R basic1</a>&nbsp
+                  </span>
+                  <small> 
+                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.12.13
+                    <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#notes" class="page__taxonomy-item-category" rel="tag">Notes</a>
+                    
+                    
+                    <a href="/tags/#r" class="page__taxonomy-item-tag" rel="tag">R</a>
+                
+            </span>
+        </span>
+                  </small>
+              </div>
+            </article>
+          
+            <article class="archive-item">
+              <div>
+                  <span>
+                    <a href="/notes/general-memo/">memo etc</a>&nbsp
                   </span>
                   <small> 
                     <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.21
@@ -1286,7 +794,7 @@
 <!--page__taxonomy.html에서 가져 옴-->
         
         <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#memo" class="page__taxonomy-item-category" rel="tag">memo</a>
+            <span itemprop="keywords"><a href="/categories/#notes" class="page__taxonomy-item-category" rel="tag">Notes</a>
                     
                     
                     <a href="/tags/#etc" class="page__taxonomy-item-tag" rel="tag">etc</a>
@@ -1310,17 +818,7 @@
   
     
   
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
+
   
     
   
@@ -1336,17 +834,7 @@
   
     
   
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
+
   
     
   
@@ -1362,52 +850,34 @@
   
     
   
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
 
   
     
   
     
-  
-    
-  
-    
-      <section id="randpython" class="taxonomy__section">
-        <h2 class="archive__subtitle">Randpython</h2>
+      <section id="dev" class="taxonomy__section">
+        <h2 class="archive__subtitle">Dev</h2>
         <div class="entries-list">
           
             <article class="archive-item">
               <div>
                   <span>
-                    <a href="/randpython/Rdata/">R data</a>&nbsp
+                    <a href="/dev/PostgreSQL/">PostgreSQL</a>&nbsp
                   </span>
                   <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.12.15
+                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.01.13
                     <!--Archive page 용-: (post -> page)-->
 <!--page__taxonomy.html에서 가져 옴-->
         
         <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#randpython" class="page__taxonomy-item-category" rel="tag">Randpython</a>
+            <span itemprop="keywords"><a href="/categories/#dev" class="page__taxonomy-item-category" rel="tag">Dev</a>
                     
                     
-                    <a href="/tags/#r" class="page__taxonomy-item-tag" rel="tag">R</a>
+                    <a href="/tags/#db" class="page__taxonomy-item-tag" rel="tag">DB</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#postgresql" class="page__taxonomy-item-tag" rel="tag">PostgreSQL</a>
                 
             </span>
         </span>
@@ -1418,7 +888,7 @@
             <article class="archive-item">
               <div>
                   <span>
-                    <a href="/randpython/pythonprogramming/">Python Programming</a>&nbsp
+                    <a href="/dev/pythonprogramming/">Python Programming</a>&nbsp
                   </span>
                   <small> 
                     <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.12.13
@@ -1426,7 +896,7 @@
 <!--page__taxonomy.html에서 가져 옴-->
         
         <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#randpython" class="page__taxonomy-item-category" rel="tag">Randpython</a>
+            <span itemprop="keywords"><a href="/categories/#dev" class="page__taxonomy-item-category" rel="tag">Dev</a>
                     
                     
                     <a href="/tags/#python-programming" class="page__taxonomy-item-tag" rel="tag">Python Programming</a><span class="sep"> </span>
@@ -1444,18 +914,18 @@
             <article class="archive-item">
               <div>
                   <span>
-                    <a href="/randpython/Rbasic2/">R basic2</a>&nbsp
+                    <a href="/dev/git-memo/">git etc</a>&nbsp
                   </span>
                   <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.12.13
+                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.12.06
                     <!--Archive page 용-: (post -> page)-->
 <!--page__taxonomy.html에서 가져 옴-->
         
         <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#randpython" class="page__taxonomy-item-category" rel="tag">Randpython</a>
+            <span itemprop="keywords"><a href="/categories/#dev" class="page__taxonomy-item-category" rel="tag">Dev</a>
                     
                     
-                    <a href="/tags/#r" class="page__taxonomy-item-tag" rel="tag">R</a>
+                    <a href="/tags/#git" class="page__taxonomy-item-tag" rel="tag">git</a>
                 
             </span>
         </span>
@@ -1466,29 +936,7 @@
             <article class="archive-item">
               <div>
                   <span>
-                    <a href="/randpython/Rbasic1/">R basic1</a>&nbsp
-                  </span>
-                  <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.12.13
-                    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#randpython" class="page__taxonomy-item-category" rel="tag">Randpython</a>
-                    
-                    
-                    <a href="/tags/#r" class="page__taxonomy-item-tag" rel="tag">R</a>
-                
-            </span>
-        </span>
-                  </small>
-              </div>
-            </article>
-          
-            <article class="archive-item">
-              <div>
-                  <span>
-                    <a href="/randpython/pythontest1/">Python version 관리</a>&nbsp
+                    <a href="/dev/pythontest1/">Python version 관리</a>&nbsp
                   </span>
                   <small> 
                     <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.20
@@ -1496,7 +944,7 @@
 <!--page__taxonomy.html에서 가져 옴-->
         
         <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#randpython" class="page__taxonomy-item-category" rel="tag">Randpython</a>
+            <span itemprop="keywords"><a href="/categories/#dev" class="page__taxonomy-item-category" rel="tag">Dev</a>
                     
                     
                     <a href="/tags/#python" class="page__taxonomy-item-tag" rel="tag">python</a><span class="sep"> </span>
@@ -1518,13 +966,7 @@
   
     
   
-    
-  
-    
-  
-    
-  
-    
+
   
     
   
@@ -1537,218 +979,20 @@
     
   
     
-      <section id="dl" class="taxonomy__section">
-        <h2 class="archive__subtitle">DL</h2>
+  
+    
+  
+
+  
+    
+      <section id="study" class="taxonomy__section">
+        <h2 class="archive__subtitle">Study</h2>
         <div class="entries-list">
           
             <article class="archive-item">
               <div>
                   <span>
-                    <a href="/dl/DLStudy1/">Deep Learning from Scratch_1</a>&nbsp
-                  </span>
-                  <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2023.03.24
-                    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#dl" class="page__taxonomy-item-category" rel="tag">DL</a>
-                    
-                    
-                    <a href="/tags/#code-reviews" class="page__taxonomy-item-tag" rel="tag">code reviews</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#deep-learning-from-scratch" class="page__taxonomy-item-tag" rel="tag">Deep Learning from Scratch</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#deep-learning" class="page__taxonomy-item-tag" rel="tag">Deep Learning</a>
-                
-            </span>
-        </span>
-                  </small>
-              </div>
-            </article>
-          
-            <article class="archive-item">
-              <div>
-                  <span>
-                    <a href="/dl/DLStudy0/">Deep Learning from Scratch_0</a>&nbsp
-                  </span>
-                  <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2023.03.24
-                    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#dl" class="page__taxonomy-item-category" rel="tag">DL</a>
-                    
-                    
-                    <a href="/tags/#code-reviews" class="page__taxonomy-item-tag" rel="tag">code reviews</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#deep-learning-from-scratch" class="page__taxonomy-item-tag" rel="tag">Deep Learning from Scratch</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#deep-learning" class="page__taxonomy-item-tag" rel="tag">Deep Learning</a>
-                
-            </span>
-        </span>
-                  </small>
-              </div>
-            </article>
-          
-            <article class="archive-item">
-              <div>
-                  <span>
-                    <a href="/dl/DLtest2/">DLtest2</a>&nbsp
-                  </span>
-                  <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.20
-                    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#dl" class="page__taxonomy-item-category" rel="tag">DL</a>
-                    
-                    
-                    <a href="/tags/#deep-learning" class="page__taxonomy-item-tag" rel="tag">Deep Learning</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test1" class="page__taxonomy-item-tag" rel="tag">test1</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test2" class="page__taxonomy-item-tag" rel="tag">test2</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test3" class="page__taxonomy-item-tag" rel="tag">test3</a>
-                
-            </span>
-        </span>
-                  </small>
-              </div>
-            </article>
-          
-            <article class="archive-item">
-              <div>
-                  <span>
-                    <a href="/dl/DLtest/">Deep Learning test1</a>&nbsp
-                  </span>
-                  <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.20
-                    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#dl" class="page__taxonomy-item-category" rel="tag">DL</a>
-                    
-                    
-                    <a href="/tags/#deep-learning" class="page__taxonomy-item-tag" rel="tag">Deep Learning</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test1" class="page__taxonomy-item-tag" rel="tag">test1</a>
-                
-            </span>
-        </span>
-                  </small>
-              </div>
-            </article>
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
-  
-    
-      <section id="ms" class="taxonomy__section">
-        <h2 class="archive__subtitle">ms</h2>
-        <div class="entries-list">
-          
-            <article class="archive-item">
-              <div>
-                  <span>
-                    <a href="/ms/mstest/">mathematical statistics test1</a>&nbsp
-                  </span>
-                  <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.20
-                    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#ms" class="page__taxonomy-item-category" rel="tag">ms</a>
-                    
-                    
-                    <a href="/tags/#mathematical-statistics" class="page__taxonomy-item-tag" rel="tag">mathematical statistics</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test1" class="page__taxonomy-item-tag" rel="tag">test1</a>
-                
-            </span>
-        </span>
-                  </small>
-              </div>
-            </article>
-          
-            <article class="archive-item">
-              <div>
-                  <span>
-                    <a href="/ms/ms1/">수리통계공부</a>&nbsp
+                    <a href="/study/ms1/">수리통계공부</a>&nbsp
                   </span>
                   <small> 
                     <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.19
@@ -1756,7 +1000,7 @@
 <!--page__taxonomy.html에서 가져 옴-->
         
         <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#ms" class="page__taxonomy-item-category" rel="tag">ms</a>
+            <span itemprop="keywords"><a href="/categories/#study" class="page__taxonomy-item-category" rel="tag">Study</a>
                     
                     
                     <a href="/tags/#mathematical-statistics" class="page__taxonomy-item-tag" rel="tag">mathematical statistics</a><span class="sep"> </span>
@@ -1776,362 +1020,6 @@
       </section>
     
   
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
-  
-    
-  
-    
-  
-    
-      <section id="ml" class="taxonomy__section">
-        <h2 class="archive__subtitle">ML</h2>
-        <div class="entries-list">
-          
-            <article class="archive-item">
-              <div>
-                  <span>
-                    <a href="/ml/MLtest/">Machine Learning test1</a>&nbsp
-                  </span>
-                  <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.20
-                    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#ml" class="page__taxonomy-item-category" rel="tag">ML</a>
-                    
-                    
-                    <a href="/tags/#machine-learning" class="page__taxonomy-item-tag" rel="tag">Machine Learning</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test1" class="page__taxonomy-item-tag" rel="tag">test1</a>
-                
-            </span>
-        </span>
-                  </small>
-              </div>
-            </article>
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-  
-    
-      <section id="analysis" class="taxonomy__section">
-        <h2 class="archive__subtitle">analysis</h2>
-        <div class="entries-list">
-          
-            <article class="archive-item">
-              <div>
-                  <span>
-                    <a href="/analysis/analysistest1/">analysis test1</a>&nbsp
-                  </span>
-                  <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.20
-                    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#analysis" class="page__taxonomy-item-category" rel="tag">analysis</a>
-                    
-                    
-                    <a href="/tags/#analysis" class="page__taxonomy-item-tag" rel="tag">analysis</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test1" class="page__taxonomy-item-tag" rel="tag">test1</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test2" class="page__taxonomy-item-tag" rel="tag">test2</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test3" class="page__taxonomy-item-tag" rel="tag">test3</a>
-                
-            </span>
-        </span>
-                  </small>
-              </div>
-            </article>
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-      <section id="calculus" class="taxonomy__section">
-        <h2 class="archive__subtitle">calculus</h2>
-        <div class="entries-list">
-          
-            <article class="archive-item">
-              <div>
-                  <span>
-                    <a href="/calculus/calculustest1/">calculus test1</a>&nbsp
-                  </span>
-                  <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.20
-                    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#calculus" class="page__taxonomy-item-category" rel="tag">calculus</a>
-                    
-                    
-                    <a href="/tags/#calculus" class="page__taxonomy-item-tag" rel="tag">calculus</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test1" class="page__taxonomy-item-tag" rel="tag">test1</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test2" class="page__taxonomy-item-tag" rel="tag">test2</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test3" class="page__taxonomy-item-tag" rel="tag">test3</a>
-                
-            </span>
-        </span>
-                  </small>
-              </div>
-            </article>
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-      <section id="dm" class="taxonomy__section">
-        <h2 class="archive__subtitle">dm</h2>
-        <div class="entries-list">
-          
-            <article class="archive-item">
-              <div>
-                  <span>
-                    <a href="/dm/dmtest2/">discrete math test1</a>&nbsp
-                  </span>
-                  <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.20
-                    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#dm" class="page__taxonomy-item-category" rel="tag">dm</a>
-                    
-                    
-                    <a href="/tags/#discrete-math" class="page__taxonomy-item-tag" rel="tag">discrete math</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test1" class="page__taxonomy-item-tag" rel="tag">test1</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test2" class="page__taxonomy-item-tag" rel="tag">test2</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test3" class="page__taxonomy-item-tag" rel="tag">test3</a>
-                
-            </span>
-        </span>
-                  </small>
-              </div>
-            </article>
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-      <section id="kaggle" class="taxonomy__section">
-        <h2 class="archive__subtitle">kaggle</h2>
-        <div class="entries-list">
-          
-            <article class="archive-item">
-              <div>
-                  <span>
-                    <a href="/kaggle/kaggletest1/">kaggle test1</a>&nbsp
-                  </span>
-                  <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.20
-                    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#kaggle" class="page__taxonomy-item-category" rel="tag">kaggle</a>
-                    
-                    
-                    <a href="/tags/#kaggle" class="page__taxonomy-item-tag" rel="tag">kaggle</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test1" class="page__taxonomy-item-tag" rel="tag">test1</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test2" class="page__taxonomy-item-tag" rel="tag">test2</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test3" class="page__taxonomy-item-tag" rel="tag">test3</a>
-                
-            </span>
-        </span>
-                  </small>
-              </div>
-            </article>
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-      <section id="la" class="taxonomy__section">
-        <h2 class="archive__subtitle">la</h2>
-        <div class="entries-list">
-          
-            <article class="archive-item">
-              <div>
-                  <span>
-                    <a href="/la/latest1/">linear algebra</a>&nbsp
-                  </span>
-                  <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.20
-                    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#la" class="page__taxonomy-item-category" rel="tag">la</a>
-                    
-                    
-                    <a href="/tags/#linear-algebra" class="page__taxonomy-item-tag" rel="tag">linear algebra</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test1" class="page__taxonomy-item-tag" rel="tag">test1</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test2" class="page__taxonomy-item-tag" rel="tag">test2</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test3" class="page__taxonomy-item-tag" rel="tag">test3</a>
-                
-            </span>
-        </span>
-                  </small>
-              </div>
-            </article>
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-      <section id="pt" class="taxonomy__section">
-        <h2 class="archive__subtitle">pt</h2>
-        <div class="entries-list">
-          
-            <article class="archive-item">
-              <div>
-                  <span>
-                    <a href="/pt/pttest1/">probability theory test1</a>&nbsp
-                  </span>
-                  <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.20
-                    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#pt" class="page__taxonomy-item-category" rel="tag">pt</a>
-                    
-                    
-                    <a href="/tags/#probability-theory" class="page__taxonomy-item-tag" rel="tag">probability theory</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#test1" class="page__taxonomy-item-tag" rel="tag">test1</a>
-                
-            </span>
-        </span>
-                  </small>
-              </div>
-            </article>
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-      <section id="visualization" class="taxonomy__section">
-        <h2 class="archive__subtitle">visualization</h2>
-        <div class="entries-list">
-          
-            <article class="archive-item">
-              <div>
-                  <span>
-                    <a href="/visualization/visualizationtest1/">visualization test1</a>&nbsp
-                  </span>
-                  <small> 
-                    <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.11.20
-                    <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#visualization" class="page__taxonomy-item-category" rel="tag">visualization</a>
-                    
-                    
-                    <a href="/tags/#test1" class="page__taxonomy-item-tag" rel="tag">test1</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#visualization" class="page__taxonomy-item-tag" rel="tag">visualization</a>
-                
-            </span>
-        </span>
-                  </small>
-              </div>
-            </article>
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
     
   
     
@@ -2191,7 +1079,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2024 ijaehun. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2025 ijaehun. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
@@ -2209,6 +1097,10 @@
 
 
 
+
+  
+    <script src="/assets/js/custom.js"></script>
+  
 
 
 

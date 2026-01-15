@@ -1,8 +1,10 @@
 # main links
 main:
-  - title: "home"
-    url: /index.html
-  - title: "about"
-    url: /about/
-  - title: "posts"
+  - title: "Home"
+    url: /
+  - title: "Categories"
     url: /categories/
+  - title: "Archive"
+    url: /year-archive/
+  - title: "About"
+    url: /about/

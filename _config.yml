@@ -201,6 +201,12 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# 커스텀 CSS 적용
+head_scripts:
+  - /assets/css/custom.css
+  
+after_footer_scripts:
+  - /assets/js/custom.js
 
 # Sass/SCSS
 sass:
