@@ -14,7 +14,7 @@ locale                 : "ko-KR"
 title                  : "ijaehun"
 title_separator        : "|"
 subtitle               : "AI/ML Developer"
-name                   : "ijaehun"
+name                   : "JaeHoon Lee"
 description            : "AI/ML Developer & Data Scientist"
 url                    : "https://ijaehun.github.io"
 baseurl                :
@@ -39,7 +39,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "ijaehun"
+  name             : "JaeHoon Lee"
   avatar           : "/assets/images/SDlogo.png"
   bio              : "Developer & Problem Solver"
   location         : "Republic of Korea"
