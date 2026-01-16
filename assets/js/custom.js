@@ -14,16 +14,19 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // 2. 부드러운 스크롤 애니메이션
+    // 2. 부드러운 스크롤 애니메이션 (헤더 높이 고려)
     const links = document.querySelectorAll('a[href^="#"]');
+    const headerOffset = 150; // 헤더 높이 + 여유 공간
+
     links.forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
+                const targetPosition = target.getBoundingClientRect().top + window.scrollY - headerOffset;
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
                 });
             }
         });
