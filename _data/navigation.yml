@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Home"
+    url: /#top
   - title: "About"
     url: /#about
   - title: "Education"

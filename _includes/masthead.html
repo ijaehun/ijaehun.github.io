@@ -7,14 +7,14 @@
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
         {% endunless %}
-        <a class="site-title" href="{{ '/' | relative_url }}">
+        <a class="site-title" href="{{ '/' | relative_url }}" onclick="event.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'}); return false;">
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %} onclick="var hash='{{ link.url }}'.split('#')[1]; if(hash){if(hash==='top'){event.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'}); return false;} var t=document.getElementById(hash); if(t){event.preventDefault(); event.stopImmediatePropagation(); window.scrollTo({top: t.getBoundingClientRect().top + window.scrollY - 100, behavior: 'smooth'}); return false;}}">{{ link.title }}</a>
             </li>
           {%- endfor -%}
         </ul>
