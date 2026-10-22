@@ -12,9 +12,5 @@ _site/
 .DS_Store
 Thumbs.db
 
-# Bundler
-vendor/
-.bundle/
-
 # Logs
 *.log

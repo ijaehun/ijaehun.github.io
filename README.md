@@ -14,18 +14,15 @@ Personal portfolio website built with Jekyll.
 
 ## Local Development
 
+Install Ruby, then `gem install jekyll jekyll-seo-tag jekyll-sitemap`.
+
 ```bash
-# Install dependencies
-bundle install
+# Run local server (http://localhost:4000)
+jekyll serve
 
-# Run local server
-bundle exec jekyll serve
-
-# Build for production
-bundle exec jekyll build
+# Build (outputs to _site/)
+jekyll build
 ```
-
-The local server runs at `http://localhost:4000`
 
 ## Project Structure
 
@@ -35,15 +32,11 @@ The local server runs at `http://localhost:4000`
 ├── _data/               # Navigation and site data
 ├── _includes/           # Reusable components
 ├── _layouts/            # Page layouts
-├── _pages/              # Static pages
-├── assets/              # Images, CSS, JS
-└── index.html           # Homepage
+├── _pages/              # All pages (/, /ko/, 404) with permalinks
+└── assets/              # Images, CSS, JS
 ```
 
 ## Deployment
 
 Push to `main` branch automatically triggers GitHub Pages deployment.
 
-## License
-
-MIT
