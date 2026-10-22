@@ -76,4 +76,5 @@ Push to `main` branch triggers automatic GitHub Pages deployment (legacy build, 
 - GitHub: 프로필 README · bio · Website 칸 · 사이트 저장소 설명이 사이트와 같은 소개 문구
 - 모든 개인 저장소 · WDSLab/FEATHer 커밋 기록에서 Claude 공동 작성자 줄 제거 (예전 커밋 번호 바뀜, 백업은 삭제함)
 - "더 보기": Publications 에 틀만 있고 주석 처리됨
+- 작은 정리(안 쓰는 CSS 변수, LICENSE 본인 이름, 주소를 _config.yml 값으로, 낡은 주석) push 완료
 - 다음 할 일: 없음 (논문 · 기술이 늘면 home.html · i18n.yml 갱신)

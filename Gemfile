@@ -22,8 +22,3 @@ end
 
 # Windows 필수 (문제 없는 것만)
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-# 주석처리: 컴파일 문제가 있는 gem들
-# gem "wdm", "~> 0.1.1", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-# gem 'nokogiri', '~> 1.16.0', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-# gem "github-pages", group: :jekyll_plugins
