@@ -69,10 +69,11 @@ Push to `main` branch triggers automatic GitHub Pages deployment (legacy build, 
 
 자세한 기록은 메모리 `project_status.md` (같은 내용 유지). 마지막 확인 2026-10-22.
 
-- 사이트 운영 중 (GitHub Pages). 2026-10-22 작업은 커밋 2개(테마 제거 4626477 + 영어 · 한국어 페이지), 아직 push 안 함
-- 파일 정리 · Minimal Mistakes 테마 제거 · 직접 만든 layout/header/footer/CSS. 전후 치수 비교 · 실제 클릭 · 운영 빌드 확인
-- 사이트 영어 전환 + 한국어 /ko/ (EN/KO 버튼, 문구는 _data/i18n.yml, 한국어는 개조식)
-- Skills · 카드를 GitHub README 스택에 맞춤. Projects 섹션 삭제, TMRC 는 논문 줄 Code 링크. Contact 는 Email · GitHub
-- GitHub: 프로필 README(ef82e7c) · bio · Website 칸 · 사이트 저장소 설명/홈페이지 모두 반영
+- 2026-10-22 개편 마무리, 모두 push · 배포됨
+- 테마 없음: 직접 만든 layout/header/footer/CSS (Minimal Mistakes 제거, 안 쓰는 파일 정리)
+- 영어 / + 한국어 /ko/ (EN/KO 버튼, 문구는 _data/i18n.yml, 한국어는 개조식)
+- 섹션: Hero · About · Education · Publications(TMRC 는 논문 줄 Code 링크) · Skills(GitHub README 스택과 같음) · Contact(Email · GitHub · ORCID)
+- GitHub: 프로필 README · bio · Website 칸 · 사이트 저장소 설명이 사이트와 같은 소개 문구
+- 모든 개인 저장소 · WDSLab/FEATHer 커밋 기록에서 Claude 공동 작성자 줄 제거 (예전 커밋 번호 바뀜, 백업은 삭제함)
 - "더 보기": Publications 에 틀만 있고 주석 처리됨
-- 다음 할 일: push (실제 사이트 반영), ORCID 링크 넣을지 결정
+- 다음 할 일: 없음 (논문 · 기술이 늘면 home.html · i18n.yml 갱신)
