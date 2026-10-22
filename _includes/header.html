@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__title" href="#top">
+      {{ site.title }}
+      <span class="site-header__subtitle">{{ site.subtitle }}</span>
+    </a>
+    <button class="site-header__toggle" type="button" aria-label="메뉴" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="3"/></svg>
+    </button>
+    <nav class="site-header__nav">
+      <ul>
+        {%- for link in site.data.navigation.main %}
+        <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

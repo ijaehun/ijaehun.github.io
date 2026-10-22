@@ -1,6 +1,6 @@
 # ijaehun.github.io
 
-Personal portfolio website built with Jekyll and Minimal Mistakes theme.
+Personal portfolio website built with Jekyll.
 
 ## Live Site
 
@@ -9,7 +9,6 @@ Personal portfolio website built with Jekyll and Minimal Mistakes theme.
 ## Tech Stack
 
 - **Framework**: Jekyll
-- **Theme**: Minimal Mistakes v4.24.0
 - **Hosting**: GitHub Pages
 - **Language**: Korean (ko-KR)
 
@@ -37,8 +36,6 @@ The local server runs at `http://localhost:4000`
 ├── _includes/           # Reusable components
 ├── _layouts/            # Page layouts
 ├── _pages/              # Static pages
-├── _posts/              # Blog posts (by category)
-├── _sass/               # Custom styles
 ├── assets/              # Images, CSS, JS
 └── index.html           # Homepage
 ```
