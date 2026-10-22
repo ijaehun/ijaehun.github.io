@@ -1,18 +1,21 @@
+{%- assign t = site.data.i18n[page.lang] | default: site.data.i18n.en -%}
+{%- if page.lang == 'ko' %}{% assign home = '/ko/' %}{% else %}{% assign home = '/' %}{% endif -%}
 <header class="site-header">
   <div class="site-header__inner">
-    <a class="site-header__title" href="#top">
+    <a class="site-header__title" href="{{ home | relative_url }}#top">
       {{ site.title }}
-      <span class="site-header__subtitle">{{ site.subtitle }}</span>
+      <span class="site-header__subtitle">{{ t.subtitle }}</span>
     </a>
-    <button class="site-header__toggle" type="button" aria-label="메뉴" aria-expanded="false">
+    <button class="site-header__toggle" type="button" aria-label="Menu" aria-expanded="false">
       <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="3"/></svg>
     </button>
     <nav class="site-header__nav">
       <ul>
-        {%- for link in site.data.navigation.main %}
-        <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+        {%- for id in site.data.navigation.main %}
+        <li><a href="{{ home | relative_url }}#{{ id }}">{{ t.nav[id] }}</a></li>
         {%- endfor %}
       </ul>
     </nav>
+    <a class="site-header__lang" href="{{ t.switch.url | relative_url }}">{{ t.switch.label }}</a>
   </div>
 </header>

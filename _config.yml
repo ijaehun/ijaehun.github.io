@@ -1,8 +1,8 @@
 # 사이트 정보
-locale           : "ko-KR"
+locale           : "en-US"
 title            : "ijaehun"
-subtitle         : "AI/ML Developer"
-description      : "AI/ML Developer & Data Scientist"
+subtitle         : "Time-Series ML Researcher"
+description      : "Ph.D. Candidate · Time-Series ML Researcher"
 url              : "https://ijaehun.github.io"
 baseurl          : ""
 timezone         : Asia/Seoul

@@ -1,6 +1,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {% seo %}
+{%- if page.lang %}
+<link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+<link rel="alternate" hreflang="ko" href="{{ '/ko/' | absolute_url }}">
+{%- endif %}
 
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/logo.ico/apple-touch-icon.png' | relative_url }}">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/logo.ico/favicon-32x32.png' | relative_url }}">

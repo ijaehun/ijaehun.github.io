@@ -1,14 +1,7 @@
-# main links
+# 상단 메뉴 순서 (섹션 id). 메뉴 이름은 _data/i18n.yml 의 nav
 main:
-  - title: "Home"
-    url: /#top
-  - title: "About"
-    url: /#about
-  - title: "Education"
-    url: /#education
-  - title: "Publications"
-    url: /#publications
-  - title: "Projects"
-    url: /#projects
-  - title: "Contact"
-    url: /#contact
+  - top
+  - about
+  - education
+  - publications
+  - contact

@@ -149,6 +149,7 @@ code {
 
   &__title {
     margin-right: 1rem;
+    white-space: nowrap;
   }
 
   &__subtitle {
@@ -195,9 +196,24 @@ code {
     }
   }
 
+  // 언어 전환 (EN / KO)
+  &__lang {
+    margin-left: 0.5rem;
+    padding: 0.25rem 0.6rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+
+    &:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+  }
+
   &__toggle {
     display: none;
-    margin-left: auto;
+    order: 1;
     padding: 0.25rem;
     border: 0;
     background: none;
@@ -205,7 +221,7 @@ code {
     cursor: pointer;
   }
 
-  @media (max-width: 1199px) {
+  @media (max-width: 1359px) {
     &__nav a {
       padding: 0.75rem 1rem;
       margin: 0;
@@ -213,9 +229,14 @@ code {
   }
 
   // 좁은 화면: ☰ 버튼을 누르면 메뉴가 아래로 펼쳐짐
-  @media (max-width: 899px) {
+  @media (max-width: 1023px) {
     &__toggle {
       display: block;
+    }
+
+    &__lang {
+      margin-left: auto;
+      margin-right: 0.5rem;
     }
 
     &__nav {
@@ -477,10 +498,19 @@ code {
 .about {
   max-width: 700px;
 
-  p {
+  p,
+  li {
     color: var(--text-secondary);
     line-height: 1.8;
     margin-bottom: 1rem;
+  }
+
+  ul {
+    padding-left: 1.25rem;
+  }
+
+  li {
+    margin-bottom: 0.25rem;
   }
 }
 
@@ -612,7 +642,7 @@ code {
 }
 
 /* ==========================================================================
-   Skills · Projects
+   Skills
    ========================================================================== */
 
 .skills {
@@ -667,69 +697,6 @@ code {
     background: var(--bg-secondary);
     border-radius: 4px;
     color: var(--text-secondary);
-  }
-}
-
-.projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 1.5rem;
-}
-
-.project-card {
-  padding: 1.75rem;
-  background: var(--bg-primary);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  transition: all 0.2s ease;
-
-  &:hover {
-    border-color: var(--accent);
-    box-shadow: var(--shadow-md);
-    transform: translateY(-4px);
-  }
-
-  &__title {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin-bottom: 0.75rem;
-  }
-
-  &__description {
-    font-size: 0.95rem;
-    color: var(--text-secondary);
-    line-height: 1.7;
-    margin-bottom: 1.25rem;
-  }
-
-  &__tech {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1.25rem;
-  }
-
-  &__tag {
-    font-size: 0.85rem;
-    padding: 0.3rem 0.75rem;
-    background: var(--accent-light);
-    color: var(--accent);
-    border-radius: 4px;
-  }
-
-  &__links {
-    display: flex;
-    gap: 1.25rem;
-
-    a {
-      font-size: 0.95rem;
-      color: var(--text-muted);
-
-      &:hover {
-        color: var(--accent);
-      }
-    }
   }
 }
 

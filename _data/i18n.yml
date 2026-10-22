@@ -1,0 +1,71 @@
+# 언어별 문구. 페이지 front matter 의 lang (en / ko) 으로 고름
+en:
+  subtitle: "Time-Series ML Researcher"
+  switch: { label: "KO", url: "/ko/" }
+  nav:
+    top: "Home"
+    about: "About"
+    education: "Education"
+    publications: "Publications"
+    contact: "Contact"
+  heading:
+    about: "About"
+    education: "Education"
+    publications: "Publications"
+    skills: "Skills"
+    contact: "Contact"
+  about:
+    - >-
+      Ph.D. candidate in AI Convergence Engineering at Changwon National University.
+      I work on time-series forecasting, representation learning, and deep learning,
+      with a focus on combining statistical methods with machine learning.
+    - "I hold a B.S. in Industrial Engineering and an M.S. in Mathematical Information &amp; Statistics."
+  education:
+    - date: "2024 - Present"
+      title: "Ph.D. Candidate in AI Convergence Engineering"
+      school: "Changwon National University"
+      desc: "Time-series forecasting, representation learning, deep learning"
+    - date: "2022 - 2024"
+      title: "M.S. in Mathematical Information & Statistics"
+      school: "Dong-eui University"
+      desc: "Statistical methodology and data analysis"
+    - date: "2016 - 2022"
+      title: "B.S. in Industrial Engineering"
+      school: "Dong-eui University"
+      desc: "Production systems, quality control, data analysis"
+  contact: "For collaboration or questions, feel free to reach out."
+
+ko:
+  subtitle: "시계열 ML 연구자"
+  switch: { label: "EN", url: "/" }
+  nav:
+    top: "홈"
+    about: "소개"
+    education: "학력"
+    publications: "논문"
+    contact: "연락처"
+  heading:
+    about: "소개"
+    education: "학력"
+    publications: "논문"
+    skills: "기술"
+    contact: "연락처"
+  about_list:
+    - "창원대학교 인공지능융합공학부 박사과정"
+    - "연구 분야: 시계열 예측, 표현학습, 딥러닝"
+    - "관심: 통계적 방법론과 머신러닝의 결합"
+    - "학력: 산업공학 학사, 수학정보통계학 석사"
+  education:
+    - date: "2024 - 현재"
+      title: "박사과정 · 인공지능융합공학"
+      school: "창원대학교 인공지능융합공학부"
+      desc: "시계열 예측, 표현학습, 딥러닝 연구"
+    - date: "2022 - 2024"
+      title: "석사 · 수학정보통계학"
+      school: "동의대학교 수학정보통계학과"
+      desc: "통계적 방법론 및 데이터 분석 연구"
+    - date: "2016 - 2022"
+      title: "학사 · 산업공학"
+      school: "동의대학교 생산정보기술공학과 (산업공학과)"
+      desc: "생산시스템, 품질관리, 데이터 분석"
+  contact: "협업 · 문의: 이메일"

@@ -10,7 +10,7 @@ Personal portfolio website built with Jekyll.
 
 - **Framework**: Jekyll
 - **Hosting**: GitHub Pages
-- **Language**: Korean (ko-KR)
+- **Language**: English
 
 ## Local Development
 
