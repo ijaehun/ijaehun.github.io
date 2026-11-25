@@ -14,3 +14,7 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Claude Code notes (local only)
+CLAUDE.md
+.claude/
